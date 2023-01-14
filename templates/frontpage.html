@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL;DR CNBC</title>
+</head>
+<body>
+    <h1>TL;DR CNBC</h1>
+    <ul>
+    {% for article in articles %}
+        <li style="padding-bottom: 16px;">
+            <span style="color: grey;">{{article['publish_timestamp']}}:</span>
+            <span style="font-weight: bold;">{{article['title']}}</span>  (<a href={{article['news_url']}}>link</a>)<br>
+            Tickers: 
+            {% for ticker in article['tickers'] %}
+                <span style="font-style: italic;">{{ticker}}</span>,
+            {% endfor %} <br>
+            Sentiment: {{article['sentiment']['Sentiment']}}<br>
+            Summary: {{article['sentiment']['Summary']}}
+        </li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
