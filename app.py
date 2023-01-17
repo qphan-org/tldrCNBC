@@ -33,7 +33,7 @@ def index():
 
 @app.route('/home')
 def home():
-    return render_template("frontpage.html", articles=session['articles'], items_per_row=4)
+    return render_template("frontpage.html", articles=session['articles'], items_per_row=3)
 
 @app.route('/article/<article_id>', methods=['GET', 'POST'])
 def read_article(article_id: str):
