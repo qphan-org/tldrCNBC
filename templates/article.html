@@ -1,0 +1,56 @@
+{% set bgcolor = '#FFFFFF'%}
+{% if article['sentiment']['Sentiment'] == 'POSITIVE' %}
+    {% set bgcolor = 'rgb(144,238,144)' %}
+{% elif article['sentiment']['Sentiment'] == 'NEGATIVE' %}
+    {% set bgcolor = 'rgb(240,128,128)' %}
+{% elif article['sentiment']['Sentiment'] == 'MIXED' %}
+    {% set bgcolor = 'rgb(245,222,179)' %}
+{% elif article['sentiment']['Sentiment'] == 'NEUTRAL' %}
+    {% set bgcolor = 'rgb(240,255,255)' %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{article['title']}}</title>
+
+    <style>
+        .div_box {
+          border: 5px outset #115097;
+          background-color: whitesmoke;
+          width: 70%;  
+          height: 70%;
+          text-align: left;
+        }
+    </style>
+</head>
+<body style="background-color: {{bgcolor}}">
+    <div align="middle">
+        <div class="div_box">
+            <h1 style="padding-left:20px;">{{article['title']}}</h1>
+            <p style="color: grey; font-size: 11px; padding-left:20px;">Publishing timestamp: {{article['publish_timestamp']}}</p><br>
+            <u style="padding-left:20px;">Summary</u>
+            <p style="padding-left:20px;">{{article['sentiment']['Tldr']}}</p>
+            <br>
+            <p style="padding-left:20px;">Sentiment: <span style="font-weight: bold;">{{article['sentiment']['Sentiment']}}</span></p>
+            <p style="padding-left:20px;">Tickers:
+                {% for ticker in article['tickers'] %}
+                    <strong">{{ticker}}</strong>,&nbsp;
+                {% endfor %} </p>
+            <p style="padding-left:20px;">Keywords:
+            {% for keyword in article['keywords'] %}
+                <span style="font-style: italic;">{{keyword}}</span>,&nbsp;
+            {% endfor %} </p>
+
+            <p style="padding-left:20px;"> Source: <a href="{{article['news_url']}}" target="_blank" rel="noopener noreferrer">{{article['news_url']}}</a></p>
+            <div align="center">
+                <button onclick="history.back()" style="font-size:13px; display: inline-block; font-style:bold;">Go Back</button>
+            </div>
+            <br>
+        </div>
+    </div>
+</body>
+</html>

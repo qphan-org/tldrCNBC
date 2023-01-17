@@ -1,0 +1,154 @@
+body {
+    /* background-color: #FEFCFF; */
+    background-color: rgb(247,245,240);
+}
+
+p {
+    font-family: georgia, garamond, serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    /* float: center; */
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.buy_button,
+.sell_button,
+.trade_button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buy_button {
+    background-color: #4CAF50;
+    /* Green */
+    width: 80%;
+}
+
+.sell_button {
+    background-color: #f44336;
+    /* red */
+    width: 80%;
+}
+
+.trade_button {
+    background-color: #115097;
+    /* Green */
+    width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #115097;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav input {
+    float: right;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    height: 90%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: #033C5A;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #C9102F;
+    color: #FFFFFF;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width:  97%;
+    height: 97%;
+    border-radius: 5px;
+    background-color: rgb(252,251,249);
+}
+
+.card.NEGATIVE {
+    background-color: rgb(240,128,128)
+}
+
+.card.NEUTRAL {
+    background-color: rgb(240,255,255);
+}
+
+.card.POSITIVE {
+    background-color: rgb(144,238,144)
+}
+
+.card.MIXED {
+    background-color: rgb(245,222,179)
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+/* #clickable-div {
+    background-color: #f00;
+    width: 200px;
+    height: 200px;
+} */
+a.fill-div {
+    display: block;
+    height: 97%;
+    width: 97%;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.2);
+}
+
+a.fill-div:link { text-decoration: none; }
+
+
+a.fill-div:visited { text-decoration: none; }
+
+
+a.fill-div:hover { text-decoration: none; }
+
+
+a.fill-div:active { text-decoration: none; }
