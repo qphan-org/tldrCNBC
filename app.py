@@ -25,7 +25,7 @@ def index():
             ]
             
         },
-        limit=20)
+        limit=30)
     
     session['articles'] = articles
     # pprint(session)

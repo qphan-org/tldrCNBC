@@ -24,7 +24,6 @@ def read_db(filter: dict = {}, limit: int=20):
         "dataSource": "ruby-1",
         "filter": filter,
         "projection": {
-            'news_url': 1,
             'sentiment.Sentiment': 1,
             'publish_timestamp': 1,
             'tickers' : 1,

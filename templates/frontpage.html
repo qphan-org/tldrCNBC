@@ -14,13 +14,10 @@
     <div class="main" align="middle">
 
         <div class="topnav" id="myTopnav">
-            <a href="/tab/home" class="active">Home</a>
-            <a href="/tab/about">About</a>
-            <a href="/tab/history">Order History</a>
             <div align="right" height="100%" padding-left="20%">
                 <form action="/search" method="POST">
                     <input type="submit" value="Search">
-                    <input type="search" id="search" name="search" placeholder="Search name or category" autofocus>
+                    <input type="search" id="search" name="search" placeholder="Search ticker or keyword" autofocus>
                 </form>
             </div>
             <div align="center" height="100%">
@@ -39,7 +36,7 @@
                             {%if j < articles|length%} 
                                 <div class="card {{articles[j]['sentiment']['Sentiment']}}" id="clickable-div">
                                         <span style="color: grey; font-size: 10px;">{{articles[j]['publish_timestamp']}}</span>
-                                        <h3><a href="/article/{{articles[j]['_id']}}" target="_blank" rel="noopener noreferrer">{{articles[j]["title"]}} </a></h3>
+                                        <h3><a href="/article/{{articles[j]['_id']}}">{{articles[j]["title"]}} </a></h3>
 
                                         <p style="font-size:13px;">{{articles[j]['sentiment']['Sentiment']}}</p>
                                         
