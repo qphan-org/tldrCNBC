@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tl;dr CNBC</title>
+    <link href="../static/styles.css" rel="stylesheet"type="text/css" />
+</head>
+<body>
+    <span><a href="/home">Home</a>&emsp;<a href="/about">About</a>&emsp;<a href="/">Refresh</a></span>
+    <!-- center everything -->
+    <div class="main" align="middle">
+        <div class="topnav" id="myTopnav">
+            <div align="center" height="100%">
+                <h1>TL;DR CNBC</h1>
+            </div> 
+            <form action="/search" method="POST">
+                <input type="search" id="search" name="search" placeholder="  Search ticker or keyword" autofocus>
+                <input type="submit" value="Search">
+            </form>
+            <br>
+        </div>
+    
+        <main>
+            <!-- child template -->
+            {% block content %}
+            {% endblock %}
+        </main>
+    
+    </div>
+</body>
+</html>

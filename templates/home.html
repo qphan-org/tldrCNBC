@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block content %}
+    <style>
+        p {
+            font-family: georgia, garamond, serif;
+        }
+    </style>
+    <table style="width:100%; table-layout: fixed;">
+        {%set items_per_row = items_per_row%}
+        <tr>
+        {%for i in range(0, articles|length, items_per_row) %}
+            <tr>
+            {%for j in range(i, i+items_per_row, 1) %}
+                <td>
+                    <div class="sub_main" align="left">
+                        {%if j < articles|length%} 
+                            <div class="card {{articles[j]['sentiment']['Sentiment']}}" id="clickable-div">
+                                <div style="padding-right:5px; padding-left:5px">
+                                    <span style="color: black; font-size: 10px;">{{articles[j]['publish_timestamp']}}</span>
+                                    <h3 style="margin-top: 3px"><a href="/article/{{articles[j]['_id']}}">{{articles[j]["title"]}} </a></h3>
+
+                                    <strong style="font-size:13px;">{{articles[j]['sentiment']['Sentiment']}}</strong>
+                                    <br>
+                                    {% for ticker in articles[j]['tickers'] %}
+                                        <span style="font-style: italic; font-size: 13px;"><a href="/ticker/{{ticker}}">{{ticker}}</a></span>,
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {%endif%}
+                    </div>
+                    <br>
+                </td>
+            {%endfor%}
+        </tr>
+        {%endfor%}
+        <tr>
+    </table>
+    {% if doc_count > 0 %}
+        <p>{{doc_count}} articles are found</p>
+        {% set page_count = (doc_count / limit)|round(0, 'ceil')|int %}
+        {% set adj = 2 %}
+        <div class="pagination" id='pagination'>
+            <a href="{{page_url}}/{{active_idx-1}}">&laquo;</a>
+            {% if active_idx-adj > 1 %}
+                <a href="{{page_url}}/1">1</a>
+                {% if active_idx-adj > 2 %}
+                    <a>...</a>
+                {% endif %}
+            {% endif %}
+            {% for i in range([active_idx-adj,1]|max, [active_idx+adj+1,page_count+1]|min) %}
+                {% if i == active_idx %}
+                    <a href="{{page_url}}/{{i}}" class="active">{{i}}</a>
+                {%else%}
+                    <a href="{{page_url}}/{{i}}">{{i}}</a>
+                {% endif %}
+            {% endfor %}
+            {% if active_idx+adj+1 <= page_count%}
+                {% if active_idx+adj+1 < page_count %}
+                    <a>...</a>
+                {% endif %}
+                <a href="{{page_url}}/{{page_count}}">{{page_count}}</a>
+            {% endif %}
+            <a href="{{page_url}}/{{active_idx+1}}">&raquo;</a>
+        </div>
+    {% else %}
+        <p>No article found</p>
+    {% endif %}
+
+{% endblock %}

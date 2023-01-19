@@ -12,17 +12,35 @@ TESTING_MODE = config['TESTING_MODE']
 test_data_file = open("test_data.json","r")
 test_data = json.load(test_data_file)
 
-def read_db(filter: dict = {}, limit: int=20):
+
+def read_db(query: dict = {}, limit: int=32, skip: int = 0):
     # if testing mode is ON, then return a testing dataset
     if TESTING_MODE:
         return test_data
+    
+    # inject additional query to the input query
+    final_query = {
+        '$and' : [
+            {"article_length": {"$gt":10}},
+            {"publish_timestamp": {"$gte":'2023-01-01'}},
+            {"$or" : 
+                [
+                    {"sentiment.Sentiment" : "NEGATIVE"},      
+                    {"sentiment.Sentiment" : "NEUTRAL"},      
+                    {"sentiment.Sentiment" : "POSITIVE"},      
+                    {"sentiment.Sentiment" : "MIXED"},      
+                ]
+            },
+            query,
+        ]
+    }
     
     url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
     payload = json.dumps({
         "collection": "news",
         "database": "ruby",
         "dataSource": "ruby-1",
-        "filter": filter,
+        "filter": final_query,
         "projection": {
             'sentiment.Sentiment': 1,
             'publish_timestamp': 1,
@@ -32,6 +50,7 @@ def read_db(filter: dict = {}, limit: int=20):
         },
         "sort": {"publish_timestamp": -1},
         "limit": limit,
+        "skip": limit * skip,
     })
     headers = {
         'Content-Type': 'application/json',
@@ -44,7 +63,7 @@ def read_db(filter: dict = {}, limit: int=20):
     results = json.loads(response.content)['documents']
     return results
 
-def read_one(filter: dict = {}):
+def read_one(query: dict = {}):
     # if testing mode is ON, then return a testing dataset
     if TESTING_MODE:
         return test_data
@@ -54,7 +73,7 @@ def read_one(filter: dict = {}):
         "collection": "news",
         "database": "ruby",
         "dataSource": "ruby-1",
-        "filter": filter,
+        "filter": query,
         "projection": {
             'news_url': 1,
             'sentiment': 1,
@@ -77,6 +96,50 @@ def read_one(filter: dict = {}):
     results = json.loads(response.content)
     document = results['document']
     return document
+
+def get_count(query: dict = {}):
+    # if testing mode is ON, then return a testing dataset
+    if TESTING_MODE:
+        return test_data
+    
+    # inject additional query to the input query
+    final_query = {
+        '$and' : [
+            {"article_length": {"$gt":10}},
+            {"publish_timestamp": {"$gte":'2023-01-01'}},
+            {"$or" : 
+                [
+                    {"sentiment.Sentiment" : "NEGATIVE"},      
+                    {"sentiment.Sentiment" : "NEUTRAL"},      
+                    {"sentiment.Sentiment" : "POSITIVE"},      
+                    {"sentiment.Sentiment" : "MIXED"},      
+                ]
+            },
+            query,
+        ]
+    }
+    
+    url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
+    payload = json.dumps({
+        "collection": "news",
+        "database": "ruby",
+        "dataSource": "ruby-1",
+        "filter": final_query,
+        "projection": {
+            '_id': 1,
+            
+        },
+    })
+    headers = {
+        'Content-Type': 'application/json',
+        'Access-Control-Request-Headers': '*',
+        'api-key': db_api_key,
+        'Accept': 'application/json'
+    }
+
+    response = requests.request("POST", url, headers=headers, data=payload)
+    results = json.loads(response.content)['documents']
+    return len(results)
 
 if __name__ == '__main__':
     pass

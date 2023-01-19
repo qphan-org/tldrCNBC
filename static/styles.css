@@ -1,19 +1,19 @@
 body {
     /* background-color: #FEFCFF; */
-    background-color: rgb(247,245,240);
-}
-
-p {
-    font-family: georgia, garamond, serif;
+    background-color: white;
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
     /* float: center; */
-    color: white;
+    color: #115097;
     display: inline-block;
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: .1rem;
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 h3 {
@@ -52,7 +52,6 @@ h3 {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #115097;
     overflow: hidden;
 }
 
@@ -63,16 +62,24 @@ h3 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .topnav input {
-    float: right;
+    float: center;
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 17px;
-    height: 90%;
+    font-size: 18px;
+    height: 100%;
+
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue
+}
+
+.topnav input:focus {
+    /* border-color: green */
 }
 
 /* Change the color of links on hover */
@@ -95,26 +102,26 @@ h3 {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width:  97%;
-    height: 97%;
+    width: 97%;
+    height: 150px;
     border-radius: 5px;
-    background-color: rgb(252,251,249);
+    background-color: rgb(252, 251, 249);
 }
 
 .card.NEGATIVE {
-    background-color: rgb(240,128,128)
+    background-color: rgb(240, 128, 128)
 }
 
 .card.NEUTRAL {
-    background-color: rgb(240,255,255);
+    background-color: powderblue;
 }
 
 .card.POSITIVE {
-    background-color: rgb(144,238,144)
+    background-color: rgb(144, 238, 144)
 }
 
 .card.MIXED {
-    background-color: rgb(245,222,179)
+    background-color: rgb(245, 222, 179)
 }
 
 .card:hover {
@@ -139,16 +146,55 @@ a.fill-div {
     height: 97%;
     width: 97%;
     text-decoration: none;
-    color:rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2);
 }
 
-a.fill-div:link { text-decoration: none; }
+a.fill-div:link {
+    text-decoration: none;
+}
 
 
-a.fill-div:visited { text-decoration: none; }
+a.fill-div:visited {
+    text-decoration: none;
+}
 
 
-a.fill-div:hover { text-decoration: none; }
+a.fill-div:hover {
+    text-decoration: none;
+}
 
 
-a.fill-div:active { text-decoration: none; }
+a.fill-div:active {
+    text-decoration: none;
+}
+
+
+.div_checkout {
+    border: 5px outset #115097;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+}
+
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #115097;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
