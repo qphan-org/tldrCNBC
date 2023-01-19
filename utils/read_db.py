@@ -13,6 +13,13 @@ test_data_file = open("test_data.json","r")
 test_data = json.load(test_data_file)
 
 
+headers = {
+    'Content-Type': 'application/json',
+    'Access-Control-Request-Headers': '*',
+    'api-key': db_api_key,
+    'Accept': 'application/json'
+}
+
 def read_db(query: dict = {}, limit: int=32, skip: int = 0):
     # if testing mode is ON, then return a testing dataset
     if TESTING_MODE:
@@ -52,22 +59,12 @@ def read_db(query: dict = {}, limit: int=32, skip: int = 0):
         "limit": limit,
         "skip": limit * skip,
     })
-    headers = {
-        'Content-Type': 'application/json',
-        'Access-Control-Request-Headers': '*',
-        'api-key': db_api_key,
-        'Accept': 'application/json'
-    }
 
     response = requests.request("POST", url, headers=headers, data=payload)
     results = json.loads(response.content)['documents']
     return results
 
 def read_one(query: dict = {}):
-    # if testing mode is ON, then return a testing dataset
-    if TESTING_MODE:
-        return test_data
-    
     url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/findOne"
     payload = bson_dumps({
         "collection": "news",
@@ -85,12 +82,6 @@ def read_one(query: dict = {}):
             
         },
     })
-    headers = {
-        'Content-Type': 'application/json',
-        'Access-Control-Request-Headers': '*',
-        'api-key': db_api_key,
-        'Accept': 'application/json'
-    }
 
     response = requests.request("POST", url, headers=headers, data=payload)
     results = json.loads(response.content)
@@ -98,10 +89,6 @@ def read_one(query: dict = {}):
     return document
 
 def get_count(query: dict = {}):
-    # if testing mode is ON, then return a testing dataset
-    if TESTING_MODE:
-        return test_data
-    
     # inject additional query to the input query
     final_query = {
         '$and' : [
@@ -130,16 +117,46 @@ def get_count(query: dict = {}):
             
         },
     })
-    headers = {
-        'Content-Type': 'application/json',
-        'Access-Control-Request-Headers': '*',
-        'api-key': db_api_key,
-        'Accept': 'application/json'
-    }
 
     response = requests.request("POST", url, headers=headers, data=payload)
     results = json.loads(response.content)['documents']
     return len(results)
+
+def if_exists(query: dict = {}, skip: int = 0):
+    # inject additional query to the input query
+    final_query = {
+        '$and' : [
+            {"article_length": {"$gt":10}},
+            {"publish_timestamp": {"$gte":'2023-01-01'}},
+            {"$or" : 
+                [
+                    {"sentiment.Sentiment" : "NEGATIVE"},      
+                    {"sentiment.Sentiment" : "NEUTRAL"},      
+                    {"sentiment.Sentiment" : "POSITIVE"},      
+                    {"sentiment.Sentiment" : "MIXED"},      
+                ]
+            },
+            query,
+        ]
+    }
+    
+    url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
+    payload = bson_dumps({
+        "collection": "news",
+        "database": "ruby",
+        "dataSource": "ruby-1",
+        "filter": final_query,
+        "skip": skip * 32,
+        "limit": 1,
+        "projection": {
+            '_id': 1,
+        },
+    })
+
+    response = requests.request("POST", url, headers=headers, data=payload)
+    results = json.loads(response.content)
+    documents = results['documents']
+    return documents != []
 
 if __name__ == '__main__':
     pass

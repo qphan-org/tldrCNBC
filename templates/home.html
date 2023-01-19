@@ -5,6 +5,10 @@
             font-family: georgia, garamond, serif;
         }
     </style>
+    {% set comps = page_url.split('/') %}
+    {% if comps|length == 3 %}
+        <h2 align="left">{{comps[1][0]|upper}}{{comps[1][1:]}}: {{comps[2]}}</h2>
+    {% endif %}
     <table style="width:100%; table-layout: fixed;">
         {%set items_per_row = items_per_row%}
         <tr>
@@ -40,7 +44,9 @@
         {% set page_count = (doc_count / limit)|round(0, 'ceil')|int %}
         {% set adj = 2 %}
         <div class="pagination" id='pagination'>
-            <a href="{{page_url}}/{{active_idx-1}}">&laquo;</a>
+            {% if active_idx > 1 %}
+                <a href="{{page_url}}/{{active_idx-1}}">&laquo;</a>
+            {% endif %}
             {% if active_idx-adj > 1 %}
                 <a href="{{page_url}}/1">1</a>
                 {% if active_idx-adj > 2 %}
@@ -60,7 +66,9 @@
                 {% endif %}
                 <a href="{{page_url}}/{{page_count}}">{{page_count}}</a>
             {% endif %}
+            {% if active_idx < page_count %}
             <a href="{{page_url}}/{{active_idx+1}}">&raquo;</a>
+            {% endif %}
         </div>
     {% else %}
         <p>No article found</p>
