@@ -110,6 +110,3 @@ def validate_idx(idx: int):
     
     if (count := session['count']) != None:
         return idx <= math.ceil(count/32)
-    
-if __name__ == "__main__":
-    app.run()
