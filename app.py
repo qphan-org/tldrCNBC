@@ -1,11 +1,9 @@
 from flask import Flask, session, render_template, request, redirect, url_for, flash
 from utils import read_db, read_one, get_count, if_exists
-from pprint import pprint
 from bson.objectid import ObjectId
-import json
 import math
 
-app = Flask('app')
+app = Flask(__name__)
 app.secret_key = "leo-phan"
 
 @app.route('/', methods=['GET', 'POST'])
@@ -20,11 +18,6 @@ def index(idx: int=1):
         session['last_request'] = f'/{idx}'
         session['active_idx'] = idx
         
-    return redirect(url_for('home', idx=idx))
-
-@app.route('/home')
-@app.route('/home/<int:idx>')
-def home(idx: int=1):
     return render_homepage()
 
 @app.route('/article/<article_id>', methods=['GET', 'POST'])
@@ -80,7 +73,7 @@ def search():
         else:
             return redirect(url_for('search_keyword', keyword=search_input.lower()))
         
-    return redirect(url_for('home'))
+    return redirect(url_for('index'))
 
 @app.route('/about', methods=['GET', 'POST'])
 def about():
