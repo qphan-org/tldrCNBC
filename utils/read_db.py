@@ -20,27 +20,23 @@ headers = {
     'Accept': 'application/json'
 }
 
+def get_final_query(query: str):
+    return {
+        '$and' : [
+            {"publish_timestamp": {"$gte":'2023-01-01'}},
+            {"article_length": {"$lte":2500}},
+            {"sentiment.Sentiment" : {'$ne':"OVERFLOW"}},
+            query,
+        ]
+    }
+
 def read_db(query: dict = {}, limit: int=32, skip: int = 0):
     # if testing mode is ON, then return a testing dataset
     if TESTING_MODE:
         return test_data
     
     # inject additional query to the input query
-    final_query = {
-        '$and' : [
-            {"article_length": {"$gt":10}},
-            {"publish_timestamp": {"$gte":'2023-01-01'}},
-            {"$or" : 
-                [
-                    {"sentiment.Sentiment" : "NEGATIVE"},      
-                    {"sentiment.Sentiment" : "NEUTRAL"},      
-                    {"sentiment.Sentiment" : "POSITIVE"},      
-                    {"sentiment.Sentiment" : "MIXED"},      
-                ]
-            },
-            query,
-        ]
-    }
+    final_query = get_final_query(query)
     
     url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
     payload = json.dumps({
@@ -90,21 +86,7 @@ def read_one(query: dict = {}):
 
 def get_count(query: dict = {}):
     # inject additional query to the input query
-    final_query = {
-        '$and' : [
-            {"article_length": {"$gt":10}},
-            {"publish_timestamp": {"$gte":'2023-01-01'}},
-            {"$or" : 
-                [
-                    {"sentiment.Sentiment" : "NEGATIVE"},      
-                    {"sentiment.Sentiment" : "NEUTRAL"},      
-                    {"sentiment.Sentiment" : "POSITIVE"},      
-                    {"sentiment.Sentiment" : "MIXED"},      
-                ]
-            },
-            query,
-        ]
-    }
+    final_query = get_final_query(query)
     
     url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
     payload = json.dumps({
@@ -124,21 +106,7 @@ def get_count(query: dict = {}):
 
 def if_exists(query: dict = {}, skip: int = 0):
     # inject additional query to the input query
-    final_query = {
-        '$and' : [
-            {"article_length": {"$gt":10}},
-            {"publish_timestamp": {"$gte":'2023-01-01'}},
-            {"$or" : 
-                [
-                    {"sentiment.Sentiment" : "NEGATIVE"},      
-                    {"sentiment.Sentiment" : "NEUTRAL"},      
-                    {"sentiment.Sentiment" : "POSITIVE"},      
-                    {"sentiment.Sentiment" : "MIXED"},      
-                ]
-            },
-            query,
-        ]
-    }
+    final_query = get_final_query(query)
     
     url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
     payload = bson_dumps({
