@@ -2,9 +2,11 @@ from flask import Flask, session, render_template, request, redirect, url_for, f
 from utils import read_db, read_one, get_count, if_exists
 from bson.objectid import ObjectId
 import math
+import json
 
 app = Flask(__name__)
-app.secret_key = "leo-phan"
+app.secret_key = json.load(open("config.json", "r"))['SECRET_KEY']
+
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/<int:idx>')
