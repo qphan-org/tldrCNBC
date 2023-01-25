@@ -16,3 +16,10 @@ server:
 	@export FLASK_APP=main
 	@export FLASK_ENV=development
 	@flask run --host=0.0.0.0 --port 8000
+
+deploy:
+	@gunicorn3 --workers=3 app:app --daemon
+
+
+stop:
+	@sudo pkill -f gunicorn3
