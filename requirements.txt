@@ -1,3 +1,5 @@
 flask
 pymongo
 requests
+uwsgi
+gunicorn3

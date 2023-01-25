@@ -108,6 +108,12 @@ h3 {
     background-color: rgb(252, 251, 249);
 }
 
+@media only screen and (max-width: 1000px) {
+    .card {
+        background-color: blue;
+    }
+}
+
 .card.NEGATIVE {
     background-color: rgb(240, 128, 128)
 }
