@@ -3,14 +3,14 @@ import json
 from pprint import pprint
 from bson.json_util import dumps as bson_dumps
 
-config_file = open("config.json", "r")
-config = json.load(config_file)
-db_api_key = config['db_api_key']
-TESTING_MODE = config['TESTING_MODE']
+with open("config.json", "r") as config_file:
+    config = json.load(config_file)
+    db_api_key = config['db_api_key']
+    TESTING_MODE = config['TESTING_MODE']
 
 # test data
-test_data_file = open("test_data.json","r")
-test_data = json.load(test_data_file)
+with open("test_data.json","r") as test_data_file:
+    test_data = json.load(test_data_file)
 
 
 headers = {
@@ -20,17 +20,24 @@ headers = {
     'Accept': 'application/json'
 }
 
-def get_final_query(query: str):
+def get_final_query(query: str, start_date: str = '2023-01-01'):
     return {
         '$and' : [
-            {"publish_timestamp": {"$gte":'2023-01-01'}},
+            {"publish_timestamp": {"$gte":start_date}},
             {"article_length": {"$lte":2500}},
             {"sentiment.Sentiment" : {'$ne':"OVERFLOW"}},
             query,
         ]
     }
 
-def read_db(query: dict = {}, limit: int=32, skip: int = 0):
+def get_db_mongo():
+    # find all
+    documents = find_all_mongo(limit=None)
+    database = json.dumps(documents, indent=4)
+    with open('database/frontpage_data/database.json', 'w+') as fd:
+        fd.write(database)
+
+def find_all_mongo(query: dict = {}, limit: int=32, skip: int = 0):
     # if testing mode is ON, then return a testing dataset
     if TESTING_MODE:
         return test_data
@@ -49,18 +56,18 @@ def read_db(query: dict = {}, limit: int=32, skip: int = 0):
             'publish_timestamp': 1,
             'tickers' : 1,
             'title': 1,
-            
+            'keywords': 1,
         },
         "sort": {"publish_timestamp": -1},
         "limit": limit,
-        "skip": limit * skip,
+        "skip": (limit if limit else 0) * skip,
     })
 
     response = requests.request("POST", url, headers=headers, data=payload)
     results = json.loads(response.content)['documents']
     return results
 
-def read_one(query: dict = {}):
+def find_one_mongo(query: dict = {}):
     url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/findOne"
     payload = bson_dumps({
         "collection": "news",
@@ -84,7 +91,7 @@ def read_one(query: dict = {}):
     document = results['document']
     return document
 
-def get_count(query: dict = {}):
+def count_mongo(query: dict = {}):
     # inject additional query to the input query
     final_query = get_final_query(query)
     
@@ -104,7 +111,7 @@ def get_count(query: dict = {}):
     results = json.loads(response.content)['documents']
     return len(results)
 
-def if_exists(query: dict = {}, skip: int = 0):
+def if_exists_mongo(query: dict = {}, skip: int = 0, limit: int = 32):
     # inject additional query to the input query
     final_query = get_final_query(query)
     
@@ -114,7 +121,7 @@ def if_exists(query: dict = {}, skip: int = 0):
         "database": "ruby",
         "dataSource": "ruby-1",
         "filter": final_query,
-        "skip": skip * 32,
+        "skip": skip * limit,
         "limit": 1,
         "projection": {
             '_id': 1,
@@ -127,4 +134,5 @@ def if_exists(query: dict = {}, skip: int = 0):
     return documents != []
 
 if __name__ == '__main__':
+    get_db_mongo()
     pass

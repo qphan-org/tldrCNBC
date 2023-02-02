@@ -1,0 +1,47 @@
+{
+    "_id": "63c6174b6b9562971f4adb5a",
+    "news_url": "https://www.cnbc.com/2023/01/05/ford-pickup-truck-sales-december-narrow-sales-decline.html",
+    "title": "Ford pickup truck sales in December help narrow overall sales decline in 2022",
+    "publish_timestamp": "2023-01-05 14:19:33",
+    "tickers": [
+        "F",
+        "TSLA",
+        "GM"
+    ],
+    "sentiment": {
+        "Sentiment": "POSITIVE",
+        "Tldr": "Ford Motor reported a 2.2% sales loss in the US in 2022, but increased sales of its F-Series pickups in December. Ford's sales outpaced the industry, which was estimated to be down by 9%. Ford gained 0.7 percentage points of market share in 2022, and maintained its status as the second-best seller of EVs. Ford brand's sales were down 2.1%, while Lincoln brand was off by 4%.",
+        "Company:": [
+            "Ford Motor",
+            "General Motors",
+            "Tesla"
+        ],
+        "Crypto:": [],
+        "Model": "text-davinci-003"
+    },
+    "tags": [
+        "united states",
+        "ford motor co",
+        "electric vehicles",
+        "business",
+        "breaking news: business",
+        "detroit",
+        "autos",
+        "general motors co",
+        "transportation",
+        "tesla inc"
+    ],
+    "keywords": [
+        "united states",
+        "ford motor co",
+        "electric vehicles",
+        "business",
+        "breaking news: business",
+        "detroit",
+        "autos",
+        "business news",
+        "general motors co",
+        "transportation",
+        "tesla inc"
+    ]
+}

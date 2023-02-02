@@ -1,44 +1,44 @@
 from flask import Flask, session, render_template, request, redirect, url_for, flash
-from utils import find_all_local, find_one_local, count_local, if_exists_local
+from utils import find_all_mongo, find_one_mongo, count_mongo, if_exists_mongo
 from bson.objectid import ObjectId
 import math
 import json
 
 app = Flask(__name__)
 app.secret_key = json.load(open("config.json", "r"))['FLASK_SECRET_KEY']
-cache = dict()
+
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/<int:idx>')
 def index(idx: int=1):
-    if cache.get('last_request') != f'/{idx}':
+    if session.get('last_request') != f'/{idx}':
         if not validate_idx(idx):
-            return redirect(url_for('search_keyword', idx=cache['active_idx']))
-        cache.clear()
-        cache['articles'] = find_all_local(skip=idx-1)
-        cache['count']    = count_local()
-        cache['last_request'] = f'/{idx}'
-        cache['active_idx'] = idx
+            return redirect(url_for('search_keyword', idx=session['active_idx']))
+        session.clear()
+        session['articles'] = find_all_mongo(skip=idx-1)
+        session['count']    = count_mongo()
+        session['last_request'] = f'/{idx}'
+        session['active_idx'] = idx
         
     return render_homepage()
 
 @app.route('/article/<article_id>', methods=['GET', 'POST'])
 def read_article(article_id: str):
-    article = find_one_local({'_id':ObjectId(article_id)})
+    article = find_one_mongo({'_id':ObjectId(article_id)})
     return render_template('article.html', article = article)
 
 @app.route('/ticker/<ticker>', methods=['GET', 'POST'])
 @app.route('/ticker/<ticker>/<int:idx>', methods=['GET', 'POST'])
 def search_ticker(ticker: str, idx: int = 1):
     query = {'tickers':ticker}
-    if cache.get('last_request') != f'/ticker/{ticker}/{idx}':
+    if session.get('last_request') != f'/ticker/{ticker}/{idx}':
         if not validate_idx(idx):
-            return redirect(url_for('search_keyword', ticker=ticker, idx=cache['active_idx']))
-        cache.clear()
-        cache['articles'] = find_all_local(query, skip=idx-1)
-        cache['count']    = count_local(query)
-        cache['last_request'] = f'/ticker/{ticker}/{idx}'
-        cache['active_idx'] = idx
+            return redirect(url_for('search_keyword', ticker=ticker, idx=session['active_idx']))
+        session.clear()
+        session['articles'] = find_all_mongo(query, skip=idx-1)
+        session['count']    = count_mongo(query)
+        session['last_request'] = f'/ticker/{ticker}/{idx}'
+        session['active_idx'] = idx
 
     return render_homepage(f'/ticker/{ticker}')
 
@@ -47,18 +47,18 @@ def search_ticker(ticker: str, idx: int = 1):
 def search_keyword(keyword: str, idx: int = 1):
     query = {
         'keywords': {
-            '$regex': keyword.lower(),
+            '$regex': keyword,
             '$options': 'i',
         }
     }
-    if cache.get('last_request') != f'/keyword/{keyword}/{idx}':
+    if session.get('last_request') != f'/keyword/{keyword}/{idx}':
         if not validate_idx(idx):
-            return redirect(url_for('search_keyword', keyword=keyword, idx=cache['active_idx']))
-        cache.clear()
-        cache['articles'] = find_all_local(query, skip=idx-1)
-        cache['count']    = count_local(query)
-        cache['last_request'] = f'/keyword/{keyword}/{idx}'
-        cache['active_idx'] = idx
+            return redirect(url_for('search_keyword', keyword=keyword, idx=session['active_idx']))
+        session.clear()
+        session['articles'] = find_all_mongo(query, skip=idx-1)
+        session['count']    = count_mongo(query)
+        session['last_request'] = f'/keyword/{keyword}/{idx}'
+        session['active_idx'] = idx
     
     return render_homepage(page_url=f'/keyword/{keyword}')
 
@@ -70,7 +70,7 @@ def search():
             return redirect(url_for('index'))
         
         # assume search input is a ticker
-        if if_exists_local({'tickers':search_input.upper()}):
+        if if_exists_mongo({'tickers':search_input.upper()}):
             return redirect(url_for('search_ticker', ticker=search_input.upper()))
         else:
             return redirect(url_for('search_keyword', keyword=search_input.lower()))
@@ -88,9 +88,9 @@ def about():
 def render_homepage(page_url: str = ""):
     return render_template(
         "home.html", 
-        articles        = cache['articles'], 
-        doc_count       = cache['count'], 
-        active_idx      = cache['active_idx'],
+        articles        = session['articles'], 
+        doc_count       = session['count'], 
+        active_idx      = session['active_idx'],
         page_url        = page_url,
         items_per_row   = 4, 
         limit           = 32,
@@ -103,5 +103,5 @@ def validate_idx(idx: int):
     if idx <= 0:
         return False
     
-    if (count := cache['count']) != None:
+    if (count := session['count']) != None:
         return idx <= math.ceil(count/32)

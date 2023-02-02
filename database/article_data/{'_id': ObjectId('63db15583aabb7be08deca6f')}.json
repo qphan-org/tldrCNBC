@@ -1,0 +1,49 @@
+{
+    "_id": "63db15583aabb7be08deca6f",
+    "news_url": "https://www.cnbc.com/2023/02/01/goodrx-barred-from-sharing-health-data-under-proposed-ftc-settlement.html",
+    "title": "GoodRx to be barred from sharing health data for ads under proposed FTC settlement",
+    "publish_timestamp": "2023-02-01 15:24:04",
+    "tickers": [
+        "GDRX",
+        "GOOGL",
+        "META",
+        "CRTO",
+        "FTCI"
+    ],
+    "sentiment": {
+        "Sentiment": "NEUTRAL",
+        "Tldr": "The Federal Trade Commission proposed to bar prescription drug comparison site GoodRx from sharing users' health data with third parties for advertising purposes. GoodRx denied wrongdoing and said it has proactively addressed privacy concerns. The proposed order includes a $1.5 million civil penalty for allegedly violating the agency's Health Breach Notification Rule. GoodRx shares were up 3.5% on Wednesday.",
+        "Company:": [
+            "GoodRx"
+        ],
+        "Crypto:": [],
+        "Model": "text-davinci-003"
+    },
+    "tags": [
+        "breaking news: politics",
+        "politics",
+        "goodrx holdings inc",
+        "breaking news: technology",
+        "criteo sa",
+        "meta platforms inc",
+        "mobile",
+        "alphabet class a",
+        "social media",
+        "ftc solar inc",
+        "technology"
+    ],
+    "keywords": [
+        "breaking news: politics",
+        "politics",
+        "goodrx holdings inc",
+        "breaking news: technology",
+        "criteo sa",
+        "meta platforms inc",
+        "mobile",
+        "alphabet class a",
+        "social media",
+        "business news",
+        "ftc solar inc",
+        "technology"
+    ]
+}

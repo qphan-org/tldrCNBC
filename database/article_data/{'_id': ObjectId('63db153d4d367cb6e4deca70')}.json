@@ -1,0 +1,40 @@
+{
+    "_id": "63db153d4d367cb6e4deca70",
+    "news_url": "https://www.cnbc.com/2023/02/01/metas-year-of-efficiency-everything-wall-street-needed-to-hear.html",
+    "title": "Meta's 'Year of Efficiency' was everything Wall Street needed to hear from Zuckerberg",
+    "publish_timestamp": "2023-02-01 20:15:55",
+    "tickers": [
+        "AAPL",
+        "META"
+    ],
+    "sentiment": {
+        "Sentiment": "POSITIVE",
+        "Tldr": "Meta reported better-than-expected fourth-quarter revenue after market closed on Wednesday, and the stock jumped on the sales figures and CEO Mark Zuckerberg's comments about the company's cost-cutting measures. Following a 64% plunge in Meta's share price in 2022, Wall Street cheered the report, sending the stock up almost 20%. Meta lowered its estimates for total expenses in 2023 and is reducing spending as it builds new data centers. Zuckerberg is selling investors on the story they want to hear, acknowledging that the company got bloated and needed more financial discipline.",
+        "Company:": [
+            "Meta"
+        ],
+        "Crypto:": [],
+        "Model": "text-davinci-003"
+    },
+    "tags": [
+        "breaking news: technology",
+        "meta platforms inc",
+        "mark zuckerberg",
+        "mobile",
+        "internet",
+        "social media",
+        "technology",
+        "apple inc"
+    ],
+    "keywords": [
+        "breaking news: technology",
+        "meta platforms inc",
+        "mark zuckerberg",
+        "mobile",
+        "internet",
+        "social media",
+        "business news",
+        "technology",
+        "apple inc"
+    ]
+}

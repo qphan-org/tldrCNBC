@@ -1,0 +1,54 @@
+{
+    "_id": "63c6174b6b9562971f4adb58",
+    "news_url": "https://www.cnbc.com/2023/01/05/abortion-cvs-and-walgreens-will-sell-mifepristone-in-pharmacies.html",
+    "title": "CVS and Walgreens plan to sell abortion pill mifepristone at pharmacies after FDA rule change",
+    "publish_timestamp": "2023-01-05 15:09:01",
+    "tickers": [
+        "CVS",
+        "WBA"
+    ],
+    "sentiment": {
+        "Sentiment": "NEUTRAL",
+        "Tldr": "The FDA has dropped long-standing restrictions that prevented retail pharmacies from offering mifepristone, a prescription abortion pill. Walgreens and CVS, the two largest drug store chains in the US, will now be able to sell mifepristone in states where abortion is legal. Patients will still need to obtain their prescription from certified healthcare providers. The decision has become a central flashpoint in the political battle over abortion at the state level in the wake of the Supreme Court overturning Roe v. Wade. Several conservative groups have asked a federal court in Texas to overturn the FDA's approval of mifepristone.",
+        "Company:": [
+            "Walgreens",
+            "CVS",
+            "Pfizer",
+            "Moderna",
+            "BioNTech"
+        ],
+        "Crypto:": [],
+        "Model": "text-davinci-003"
+    },
+    "tags": [
+        "politics",
+        "biotech and pharmaceuticals",
+        "walgreens boots alliance inc",
+        "pandemics",
+        "cvs health corp",
+        "business",
+        "coronavirus",
+        "epidemics",
+        "biotechnology",
+        "health care industry",
+        "breaking news: business",
+        "u.s. economy",
+        "disease outbreaks"
+    ],
+    "keywords": [
+        "politics",
+        "biotech and pharmaceuticals",
+        "walgreens boots alliance inc",
+        "pandemics",
+        "cvs health corp",
+        "business",
+        "coronavirus",
+        "business news",
+        "epidemics",
+        "biotechnology",
+        "health care industry",
+        "breaking news: business",
+        "u.s. economy",
+        "disease outbreaks"
+    ]
+}

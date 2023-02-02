@@ -1,0 +1,52 @@
+{
+    "_id": "63db15583aabb7be08deca72",
+    "news_url": "https://www.cnbc.com/2023/02/01/snap-shares-tumble-13percent-following-disappointing-fourth-quarter-report-.html",
+    "title": "Snap shares tumble 10% following disappointing fourth-quarter report",
+    "publish_timestamp": "2023-02-01 16:00:40",
+    "tickers": [
+        "GOOG",
+        "GOOGL",
+        "META",
+        "SNAP",
+        "AAPL",
+        "UBSG-CH"
+    ],
+    "sentiment": {
+        "Sentiment": "NEGATIVE",
+        "Tldr": "Shares of Snap dropped 10% after the company released a disappointing quarterly report for the third quarter in a row. The company cited macroeconomic headwinds, platform policy changes, and increased competition as the reasons for the decline. Analysts from UBS, JPMorgan, and Jeffries all downgraded the stock and lowered their revenue outlooks for the company.",
+        "Company:": [
+            "Snap",
+            "Meta",
+            "Twitter",
+            "Apple",
+            "UBS",
+            "JPMorgan",
+            "Jeffries"
+        ],
+        "Crypto:": [],
+        "Model": "text-davinci-003"
+    },
+    "tags": [
+        "enterprise",
+        "meta platforms inc",
+        "alphabet class a",
+        "internet",
+        "snap inc",
+        "social media",
+        "ubs group ag",
+        "alphabet class c",
+        "technology"
+    ],
+    "keywords": [
+        "enterprise",
+        "meta platforms inc",
+        "alphabet class a",
+        "internet",
+        "snap inc",
+        "social media",
+        "ubs group ag",
+        "business news",
+        "alphabet class c",
+        "technology"
+    ]
+}

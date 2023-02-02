@@ -1,0 +1,53 @@
+{
+    "_id": "63d01ca533eaa4d5392e4aff",
+    "news_url": "https://www.cnbc.com/2023/01/24/abortion-pill-fda-challenged-in-lawsuit-seeking-to-pull-mifepristone-from-us.html",
+    "title": "The FDA's power to approve drugs faces sweeping challenge in lawsuit seeking to pull abortion pill from U.S. market",
+    "publish_timestamp": "2023-01-24 08:36:05",
+    "tickers": [
+        "WBA",
+        "CVS"
+    ],
+    "sentiment": {
+        "Sentiment": "NEUTRAL",
+        "Tldr": "The FDA is facing a legal challenge from anti-abortion physicians to overturn its approval of mifepristone, a pill used to terminate early pregnancies. The Alliance for Hippocratic Medicine is represented by the Alliance Defending Freedom, a Christian organization that played a role in the Supreme Court's decision to overturn Roe v. Wade. The FDA argues that the lawsuit is unprecedented and that mifepristone is a safe and effective way to end early pregnancies. The Biden administration has argued that the public interest would be \"dramatically harmed\" by pulling mifepristone from the market. The outcome of the case could have implications for the FDA's drug approval powers and abortion access in the US.",
+        "Company:": [
+            "CVS",
+            "Walgreens"
+        ],
+        "Crypto:": [],
+        "Model": "text-davinci-003"
+    },
+    "tags": [
+        "coronavirus",
+        "disease outbreaks",
+        "pandemics",
+        "health care industry",
+        "biotech and pharmaceuticals",
+        "cvs health corp",
+        "u.s. economy",
+        "biotechnology",
+        "politics",
+        "breaking news: business",
+        "donald trump",
+        "walgreens boots alliance inc",
+        "epidemics",
+        "business"
+    ],
+    "keywords": [
+        "coronavirus",
+        "disease outbreaks",
+        "pandemics",
+        "health care industry",
+        "biotech and pharmaceuticals",
+        "business news",
+        "cvs health corp",
+        "u.s. economy",
+        "biotechnology",
+        "politics",
+        "breaking news: business",
+        "donald trump",
+        "walgreens boots alliance inc",
+        "epidemics",
+        "business"
+    ]
+}

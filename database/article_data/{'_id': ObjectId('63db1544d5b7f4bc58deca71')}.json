@@ -1,0 +1,67 @@
+{
+    "_id": "63db1544d5b7f4bc58deca71",
+    "news_url": "https://www.cnbc.com/2023/02/01/what-a-federal-reserve-quarter-point-interest-rate-hike-means-for-you.html",
+    "title": "Here's what the Federal Reserve's 25 basis point interest rate hike means for your money",
+    "publish_timestamp": "2023-02-01 14:42:02",
+    "tickers": [
+        "TREE"
+    ],
+    "sentiment": {
+        "Sentiment": "NEUTRAL",
+        "Tldr": "The Federal Reserve raised interest rates, which will affect mortgages, credit cards, student and car loans. Credit card interest rates are already high and will continue to rise, while mortgages and home loans are more closely tied to the Federal Reserve's actions. Savings accounts are now higher, but the inflation rate is higher than the rates, so any money in savings loses purchasing power over time.",
+        "Company:": [
+            "Bankrate.com",
+            "LendingTree",
+            "TransUnion",
+            "WalletHub",
+            "Edmunds"
+        ],
+        "Crypto:": [],
+        "Model": "text-davinci-003"
+    },
+    "tags": [
+        "personal finance",
+        "mortgages",
+        "central banking",
+        "federal reserve system",
+        "inflation",
+        "investment strategy",
+        "coronavirus",
+        "interest rates",
+        "covid-19",
+        "u.s. economy",
+        "prices",
+        "personal saving",
+        "credit card debt",
+        "coronavirus: personal finance",
+        "banks",
+        "lendingtree inc",
+        "economic events",
+        "personal loans",
+        "jerome powell",
+        "economy"
+    ],
+    "keywords": [
+        "personal finance",
+        "mortgages",
+        "central banking",
+        "business news",
+        "federal reserve system",
+        "inflation",
+        "investment strategy",
+        "coronavirus",
+        "interest rates",
+        "covid-19",
+        "u.s. economy",
+        "prices",
+        "personal saving",
+        "credit card debt",
+        "coronavirus: personal finance",
+        "banks",
+        "lendingtree inc",
+        "economic events",
+        "personal loans",
+        "jerome powell",
+        "economy"
+    ]
+}
