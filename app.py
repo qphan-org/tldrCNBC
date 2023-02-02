@@ -3,6 +3,7 @@ from utils import find_all_local, find_one_local, count_local, if_exists_local
 from bson.objectid import ObjectId
 import math
 import json
+import re
 
 app = Flask(__name__)
 app.secret_key = json.load(open("config.json", "r"))['FLASK_SECRET_KEY']
@@ -45,9 +46,10 @@ def search_ticker(ticker: str, idx: int = 1):
 @app.route('/keyword/<keyword>', methods=['GET', 'POST'])
 @app.route('/keyword/<keyword>/<int:idx>', methods=['GET', 'POST'])
 def search_keyword(keyword: str, idx: int = 1):
+    keyword = re.sub(r'[^A-Za-z0-9 ]+', '', keyword).lower()
     query = {
         'keywords': {
-            '$regex': keyword.lower(),
+            '$regex': keyword,
             '$options': 'i',
         }
     }
