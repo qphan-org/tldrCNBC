@@ -25,3 +25,5 @@ stop:
 
 update:
 	@python3 ./utils/read_MongoDB.py
+	@make stop
+	@make deploy
