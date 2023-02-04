@@ -20,6 +20,8 @@ server:
 deploy:
 	@gunicorn3 --workers=3 app:app --daemon
 
-
 stop:
 	@sudo pkill -f gunicorn3
+
+update:
+	@python3 ./utils/read_MongoDB.py
