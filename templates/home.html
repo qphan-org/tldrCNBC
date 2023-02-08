@@ -41,7 +41,7 @@
         <tr>
     </table>
     {% if doc_count > 0 %}
-        <p>{{doc_count}} articles are found</p>
+        <p>Found {{doc_count}} articles</p>
         {% set page_count = (doc_count / limit)|round(0, 'ceil')|int %}
         {% set adj = 2 %}
         <div class="pagination" id='pagination'>
@@ -72,7 +72,7 @@
             {% endif %}
         </div>
     {% else %}
-        <p>No article found</p>
+        <p>Found no article</p>
     {% endif %}
 
 {% endblock %}
