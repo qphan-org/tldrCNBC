@@ -1,5 +1,2940 @@
 [
     {
+        "_id": "63e42412d2e4b0dab748d8f0",
+        "title": "Disney to cut 7,000 jobs and slash $5.5 billion in costs as it unveils vast restructuring",
+        "publish_timestamp": "2023-02-08 17:30:16",
+        "tickers": [
+            "WBD",
+            "DIS"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "walt disney co",
+            "warner bros discovery inc",
+            "business",
+            "business news",
+            "media",
+            "breaking news: business",
+            "earnings"
+        ]
+    },
+    {
+        "_id": "63e4240a524ae86f9748d8f0",
+        "title": "Mattel shares tumble after holiday quarter fails to boost sagging sales",
+        "publish_timestamp": "2023-02-08 17:27:52",
+        "tickers": [
+            "WBD",
+            "MAT",
+            "HAS"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "margot robbie",
+            "entertainment",
+            "retail industry",
+            "warner bros discovery inc",
+            "business",
+            "business news",
+            "ryan gosling",
+            "mattel inc",
+            "hasbro inc",
+            "earnings",
+            "breaking news: earnings"
+        ]
+    },
+    {
+        "_id": "63e42402c10546f07f48d8f0",
+        "title": "Disney beats expectations as streaming subscriber losses aren't as bad as feared",
+        "publish_timestamp": "2023-02-08 17:18:16",
+        "tickers": [
+            "DIS"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "movies",
+            "life",
+            "entertainment",
+            "walt disney co",
+            "business",
+            "business news",
+            "media",
+            "breaking news: business",
+            "earnings",
+            "breaking news: earnings"
+        ]
+    },
+    {
+        "_id": "63e4240465e32102b948d8f0",
+        "title": "Solar tech company Nextracker expected to price at upper end of range in good sign for IPO market",
+        "publish_timestamp": "2023-02-08 17:10:58",
+        "tickers": [
+            "JPM",
+            "MBLY",
+            "FLEX",
+            "NDAQ"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "breaking news: investing",
+            "breakingnewsglobal",
+            "nasdaq inc",
+            "mobileye global inc",
+            "flextronics international ltd",
+            "business news",
+            "investment strategy",
+            "banks",
+            "breaking news: markets",
+            "jpmorgan chase & co"
+        ]
+    },
+    {
+        "_id": "63e4240b80ece0beb448d8f1",
+        "title": "Stocks making the biggest moves after hours: Disney, Mattel, Wynn Resorts, Affirm and more",
+        "publish_timestamp": "2023-02-08 17:08:16",
+        "tickers": [
+            "DIS",
+            "MAT",
+            "LNC",
+            "HOOD",
+            "CDAY",
+            "MGM",
+            "WYNN",
+            "AFRM"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "wynn resorts ltd",
+            "stock markets",
+            "market insider",
+            "walt disney co",
+            "mgm resorts international",
+            "ceridian hcm holding inc",
+            "lincoln national corp",
+            "robinhood markets inc",
+            "mattel inc",
+            "business news",
+            "breaking news: markets",
+            "breaking news",
+            "affirm holdings inc"
+        ]
+    },
+    {
+        "_id": "63e423ff1a3646e7f348d8f0",
+        "title": "Affirm cuts 19% of workforce; shares tank on earnings miss",
+        "publish_timestamp": "2023-02-08 16:52:29",
+        "tickers": [
+            "AFRM"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "breaking news: technology",
+            "business news",
+            "breaking news: markets",
+            "affirm holdings inc"
+        ]
+    },
+    {
+        "_id": "63e42412d2e4b0dab748d8f1",
+        "title": "Robinhood board approves plan to buy back Sam Bankman-Fried's $578 million stake",
+        "publish_timestamp": "2023-02-08 16:45:51",
+        "tickers": [
+            "HOOD"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "energy",
+            "bitcoin",
+            "technology",
+            "fintech",
+            "business news",
+            "robinhood markets inc",
+            "cryptocurrency"
+        ]
+    },
+    {
+        "_id": "63e424126eb2791a6848d8f0",
+        "title": "Alphabet shares fall 7% following Google's A.I. event",
+        "publish_timestamp": "2023-02-08 16:25:43",
+        "tickers": [
+            "GOOGL",
+            "MSFT",
+            "GOOG"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "alphabet class a",
+            "enterprise",
+            "microsoft corp",
+            "technology",
+            "breaking news: technology",
+            "business news",
+            "media",
+            "alphabet class c",
+            "internet"
+        ]
+    },
+    {
+        "_id": "63e4240c8ffb04c51448d8f0",
+        "title": "Southwest plans to tell Senate it's confident in its schedule after holiday meltdown",
+        "publish_timestamp": "2023-02-08 16:21:43",
+        "tickers": [
+            "LUV"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "joe biden",
+            "aerospace and defense industry",
+            "politics",
+            "life",
+            "southwest airlines co",
+            "business",
+            "travel",
+            "business news",
+            "breaking news: business",
+            "transportation",
+            "airlines"
+        ]
+    },
+    {
+        "_id": "63e4240b80ece0beb448d8f0",
+        "title": "Dominion Voting attorney calls out Fox for missing evidence in defamation lawsuit",
+        "publish_timestamp": "2023-02-08 16:19:47",
+        "tickers": [
+            "FOXA"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "lawsuits",
+            "fox corp. class a",
+            "business",
+            "business news",
+            "media"
+        ]
+    },
+    {
+        "_id": "63e42408cd901ffc0b48d8f0",
+        "title": "Stocks making the biggest moves midday: CVS, Fortinet, Lumen Technologies, Alphabet & more",
+        "publish_timestamp": "2023-02-08 16:05:46",
+        "tickers": [
+            "UA",
+            "UAA",
+            "FTNT",
+            "CVS",
+            "FOX",
+            "FOXA",
+            "ENPH",
+            "NYT",
+            "TRIP",
+            "GOOGL",
+            "CME",
+            "CMG",
+            "LUMN"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "cme group inc",
+            "breaking news: markets",
+            "breaking news",
+            "tripadvisor inc",
+            "fox corp. class a",
+            "stock markets",
+            "under armour inc",
+            "market insider",
+            "lumen technologies inc",
+            "fortinet inc",
+            "cvs health corp",
+            "fox corp. class b",
+            "new york times co",
+            "alphabet class a",
+            "chipotle mexican grill inc",
+            "enphase energy inc",
+            "business news",
+            "economy",
+            "markets"
+        ]
+    },
+    {
+        "_id": "63e4240ae073f9f58148d8f0",
+        "title": "Netflix starts cracking down on password sharing in four countries",
+        "publish_timestamp": "2023-02-08 15:45:13",
+        "tickers": [
+            "NFLX"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "netflix inc",
+            "canada",
+            "entertainment",
+            "business",
+            "spain",
+            "portugal",
+            "business news",
+            "media",
+            "new zealand"
+        ]
+    },
+    {
+        "_id": "63e424126eb2791a6848d8f1",
+        "title": "Google veteran of 18 years leaving to start A.I. company with ex-Salesforce co-CEO Bret Taylor",
+        "publish_timestamp": "2023-02-08 15:39:01",
+        "tickers": [
+            "GOOGL",
+            "MSFT",
+            "CRM",
+            "GOOG"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "internet",
+            "alphabet class a",
+            "microsoft corp",
+            "google",
+            "technology",
+            "breaking news: technology",
+            "marc benioff",
+            "business news",
+            "alphabet class c",
+            "salesforce inc"
+        ]
+    },
+    {
+        "_id": "63e423f90709fd12ad48d8f0",
+        "title": "Biden pushed a billionaire minimum tax \u2013 here's what Elon Musk would pay",
+        "publish_timestamp": "2023-02-08 15:01:41",
+        "tickers": [
+            "TSLA"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "politics",
+            "elon musk",
+            "government taxation and revenue",
+            "tesla inc",
+            "business news",
+            "wealth"
+        ]
+    },
+    {
+        "_id": "63e4240962e85b358f48d8f0",
+        "title": "Movie theaters get creative with food and drink as they struggle to fill seats",
+        "publish_timestamp": "2023-02-08 14:22:10",
+        "tickers": [
+            "AMC",
+            "MCS",
+            "CINE-GB",
+            "CNK",
+            "CNWGY"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "cineworld group plc",
+            "theater",
+            "amc entertainment holdings inc",
+            "movies",
+            "entertainment",
+            "business",
+            "food and drink",
+            "business news",
+            "marcus corp",
+            "media",
+            "cinemark holdings inc"
+        ]
+    },
+    {
+        "_id": "63e3cbacf3b9b7ddb70de8e3",
+        "title": "Microsoft's $69 billion Activision takeover in doubt as UK regulator raises competition concerns",
+        "publish_timestamp": "2023-02-08 11:12:24",
+        "tickers": [
+            "ATVI",
+            "MSFT",
+            "NTES",
+            "9999-HK",
+            "6758.T-JP",
+            "7974.T-JP",
+            "AMZN",
+            "META",
+            "AAPL"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "apple inc",
+            "media",
+            "activision blizzard inc",
+            "amazon.com inc",
+            "microsoft corp",
+            "nintendo co ltd",
+            "meta platforms inc",
+            "business news",
+            "technology",
+            "netease inc",
+            "gaming software",
+            "sony group corp"
+        ]
+    },
+    {
+        "_id": "63e3cb92cf8005fd080de8e3",
+        "title": "Taco Bell sales help fast-food giant Yum Brands top expectations",
+        "publish_timestamp": "2023-02-08 11:01:23",
+        "tickers": [
+            "SBUX",
+            "YUM"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "starbucks corp",
+            "retail industry",
+            "yum! brands inc",
+            "markets",
+            "united states",
+            "restaurants",
+            "breaking news: business",
+            "business news",
+            "business",
+            "earnings"
+        ]
+    },
+    {
+        "_id": "63e3cb8a61fd3e282d0de8e3",
+        "title": "Under Armour raises outlook as company defends high inventory level",
+        "publish_timestamp": "2023-02-08 10:57:18",
+        "tickers": [
+            "MAR",
+            "UAA"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "retail industry",
+            "breaking news: earnings",
+            "breaking news: business",
+            "under armour inc",
+            "business news",
+            "business",
+            "earnings",
+            "apparel retail",
+            "marriott international inc"
+        ]
+    },
+    {
+        "_id": "63e3cbacf3b9b7ddb70de8e2",
+        "title": "All you need to know about ChatGPT, the A.I. chatbot that's got the world talking and tech giants clashing",
+        "publish_timestamp": "2023-02-08 10:52:35",
+        "tickers": [
+            "MSFT",
+            "GOOGL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "world economy",
+            "jobs",
+            "microsoft corp",
+            "alphabet class a",
+            "social media",
+            "business news",
+            "internet",
+            "technology",
+            "economy"
+        ]
+    },
+    {
+        "_id": "63e3cb92cf8005fd080de8e4",
+        "title": "Google shows off more of what its ChatGPT competitor Bard can do",
+        "publish_timestamp": "2023-02-08 10:46:03",
+        "tickers": [
+            "GOOG",
+            "GOOGL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "sundar pichai",
+            "alphabet class a",
+            "breaking news: technology",
+            "google",
+            "business news",
+            "internet",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e3cb93c2394932d80de8e2",
+        "title": "Uber beats estimates and the stock is up",
+        "publish_timestamp": "2023-02-08 10:41:18",
+        "tickers": [
+            "UBER"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "media",
+            "breaking news: earnings",
+            "uber technologies inc",
+            "breaking news: technology",
+            "business news",
+            "technology",
+            "dara khosrowshahi",
+            "enterprise"
+        ]
+    },
+    {
+        "_id": "63e3cba2c7a323dd360de8e3",
+        "title": "Michael Kors owner Capri shares plunge after revenue falls across the retailer's luxury brands",
+        "publish_timestamp": "2023-02-08 10:37:40",
+        "tickers": [
+            "CPRI"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "retail industry",
+            "capri holdings ltd",
+            "luxury",
+            "business news",
+            "business",
+            "michael kors",
+            "jimmy choo",
+            "earnings"
+        ]
+    },
+    {
+        "_id": "63e3cb841b29aea1f40de8e2",
+        "title": "Treasury yields waver as investors assess monetary policy outlook",
+        "publish_timestamp": "2023-02-08 10:35:40",
+        "tickers": [
+            "US10Y",
+            "US2Y"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "federal reserve bank",
+            "jerome powell",
+            "treasury bills",
+            "breaking news: markets",
+            "u.s. 2 year treasury",
+            "central banking",
+            "u.s. 10 year treasury",
+            "treasury notes",
+            "u.s. treasury bonds",
+            "neel kashkari",
+            "interest rates",
+            "bonds",
+            "business news",
+            "economic events",
+            "economic outlook",
+            "monetary policy",
+            "united states"
+        ]
+    },
+    {
+        "_id": "63e3cba0b964d69dee0de8e2",
+        "title": "European stocks higher after Fed Chair Powell's comments; FTSE hits record high",
+        "publish_timestamp": "2023-02-08 10:17:34",
+        "tickers": [
+            ".DJI",
+            "M4M-FF",
+            "QUOTES",
+            ".FTMIB",
+            ".GDAXI",
+            "ROCK.B-DK",
+            ".SPX",
+            ".IXIC",
+            "0O77-GB",
+            ".FCHI",
+            ".FTSE",
+            "0NQC-GB",
+            ".STOXX",
+            "NESTE-FI",
+            "ADYEN-NL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "breaking news: europe",
+            "jerome powell",
+            "adyen nv",
+            "business news",
+            "stoxx 600",
+            "economic events",
+            "pandora a/s",
+            "rockwool a/s",
+            "millicom international cellular sa",
+            "united states",
+            "millicom international"
+        ]
+    },
+    {
+        "_id": "63e3cb8af2a07bddb50de8e2",
+        "title": "Fox projects record Super Bowl ad revenue after World Cup, NFL boosted results",
+        "publish_timestamp": "2023-02-08 09:39:08",
+        "tickers": [
+            "WBD",
+            "NWSA",
+            "PARA",
+            "FOXA"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "media",
+            "advertising",
+            "paramount global",
+            "sports",
+            "business news",
+            "news corp class a",
+            "business",
+            "earnings",
+            "warner bros discovery inc",
+            "fox corp. class a"
+        ]
+    },
+    {
+        "_id": "63e3cb91dfd457106a0de8e2",
+        "title": "Chinese tech giant Alibaba working on a ChatGPT rival; shares jump",
+        "publish_timestamp": "2023-02-08 09:34:33",
+        "tickers": [
+            "BIDU",
+            "BABA",
+            "MSFT",
+            "GOOG",
+            "GOOGL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "baidu inc",
+            "artificial intelligence",
+            "microsoft corp",
+            "alibaba group holding ltd",
+            "alphabet class a",
+            "business news",
+            "internet",
+            "alphabet class c"
+        ]
+    },
+    {
+        "_id": "63e3cb8a61fd3e282d0de8e2",
+        "title": "Stocks making the biggest moves premarket: Uber, Chipotle, Microsoft, Lumen and more",
+        "publish_timestamp": "2023-02-08 08:18:04",
+        "tickers": [
+            "CMG",
+            "MSFT",
+            "TRIP",
+            "UA",
+            "UBER",
+            "UAA",
+            "LUMN",
+            "ENPH",
+            "FTNT",
+            "ILMN"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "illumina inc",
+            "markets",
+            "microsoft corp",
+            "business",
+            "market insider",
+            "breaking news: markets",
+            "uber technologies inc",
+            "tripadvisor inc",
+            "under armour inc",
+            "lumen technologies inc",
+            "fortinet inc",
+            "chipotle mexican grill inc",
+            "business news",
+            "dara khosrowshahi",
+            "stock markets",
+            "enphase energy inc",
+            "economy"
+        ]
+    },
+    {
+        "_id": "63e3cb89475c6bb47f0de8e2",
+        "title": "Why Dick's Sporting Goods succeeded where Sports Authority failed",
+        "publish_timestamp": "2023-02-08 08:00:01",
+        "tickers": [
+            "DKS"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "nashville",
+            "cory booker",
+            "barack obama",
+            "nfl scouting combine",
+            "camping",
+            "politics",
+            "video first",
+            "sporting goods retail",
+            "football",
+            "sports tv",
+            "nfl super bowl",
+            "major league soccer",
+            "mlb teams",
+            "major league baseball",
+            "sports teams",
+            "sport climbing",
+            "climbing",
+            "markets",
+            "soccer player",
+            "sporting goods manufacturing",
+            "nba teams",
+            "sports events",
+            "fifa",
+            "national football league players association",
+            "james lankford",
+            "nba",
+            "business news",
+            "u.s. economy",
+            "nfl teams",
+            "sports media",
+            "business",
+            "national football league",
+            "neymar",
+            "tom brady",
+            "dick's sporting goods inc",
+            "dallas cowboys",
+            "nfl football",
+            "philadelphia eagles",
+            "hiking",
+            "donald trump",
+            "chicago",
+            "economy"
+        ]
+    },
+    {
+        "_id": "63e3cba0b964d69dee0de8e3",
+        "title": "SocGen reports 64% slide in annual profits but beats market expectations",
+        "publish_timestamp": "2023-02-08 07:42:11",
+        "tickers": [
+            "GLE-FR",
+            ".STOXX"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "breaking news: europe",
+            "european central bank",
+            "politics",
+            "europe news",
+            "banks",
+            "business news",
+            "stoxx 600",
+            "societe generale sa",
+            "france",
+            "earnings"
+        ]
+    },
+    {
+        "_id": "63e3cb8e9543a34bff0de8e2",
+        "title": "Microsoft's new Bing chatbot is fun but sometimes more cautious than ChatGPT",
+        "publish_timestamp": "2023-02-08 07:31:17",
+        "tickers": [
+            "MSFT"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "consumer electronics",
+            "microsoft corp",
+            "breaking news: technology",
+            "business news",
+            "satya nadella",
+            "technology",
+            "business",
+            "enterprise"
+        ]
+    },
+    {
+        "_id": "63e3cba2c7a323dd360de8e2",
+        "title": "5 things to know before the stock market opens Wednesday",
+        "publish_timestamp": "2023-02-08 07:22:54",
+        "tickers": [
+            "CMG",
+            "MSFT",
+            "DIS",
+            "CVS",
+            "UBER",
+            "UAA",
+            "YUM",
+            "MAT"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "yum! brands inc",
+            "investment strategy",
+            "markets",
+            "mattel inc",
+            "microsoft corp",
+            "uber technologies inc",
+            "cvs health corp",
+            "under armour inc",
+            "chipotle mexican grill inc",
+            "business news",
+            "walt disney co",
+            "business",
+            "economy"
+        ]
+    },
+    {
+        "_id": "63e3cbacf3b9b7ddb70de8e5",
+        "title": "Chinese food delivery firm Meituan plans to hire 10,000 workers as U.S. tech giants ax jobs",
+        "publish_timestamp": "2023-02-08 07:11:33",
+        "tickers": [
+            "MSFT",
+            "3690-HK",
+            "BABA",
+            "700-HK",
+            "GOOGL"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "tencent holdings ltd",
+            "markets",
+            "microsoft corp",
+            "alibaba group holding ltd",
+            "china",
+            "shanghai",
+            "alphabet class a",
+            "beijing",
+            "business news",
+            "internet",
+            "meituan"
+        ]
+    },
+    {
+        "_id": "63e3cb92cf8005fd080de8e2",
+        "title": "ByteDance is testing food delivery service via its Chinese version of TikTok",
+        "publish_timestamp": "2023-02-08 05:15:41",
+        "tickers": [
+            "3690-HK",
+            "BABA",
+            "UBER"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "uber technologies inc",
+            "alibaba group holding ltd",
+            "china",
+            "business news",
+            "meituan"
+        ]
+    },
+    {
+        "_id": "63e3cbacf3b9b7ddb70de8e4",
+        "title": "CNBC Daily Open: Powell\u2019s speech was hawkish. Investors' mood was bullish",
+        "publish_timestamp": "2023-02-08 01:17:52",
+        "tickers": [
+            "BIDU",
+            "MSFT",
+            "GOOGL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "jobs",
+            "federal reserve bank",
+            "markets",
+            "baidu inc",
+            "microsoft corp",
+            "jerome powell",
+            "world markets",
+            "inflation",
+            "alphabet class a",
+            "business news",
+            "neel kashkari",
+            "interest rates",
+            "technology",
+            "central banking"
+        ]
+    },
+    {
+        "_id": "63e2eeb1ee00e4b9f0727111",
+        "title": "Asia-Pacific markets mixed as Fed says inflation is on the decline",
+        "publish_timestamp": "2023-02-07 19:26:01",
+        "tickers": [
+            ".HSI",
+            "7974.T-JP",
+            "9984.T-JP",
+            "AUD=",
+            ".IXIC",
+            ".N225",
+            "@CL.1",
+            "JPY=",
+            ".SZI",
+            ".DXY",
+            ".SSEC",
+            "@LCO.1",
+            ".AXJO",
+            ".KS11"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "ice brent crude (apr'23)",
+            "softbank group corp",
+            "hang seng index",
+            "australian dollar/us dollar fx spot rate",
+            "kospi index",
+            "breaking news: asia",
+            "nintendo co ltd",
+            "usd/jpy",
+            "world markets",
+            "shenzhen component index",
+            "s&p/asx 200",
+            "wti crude (mar'23)",
+            "shanghai",
+            "breaking news: markets",
+            "business news",
+            "asia economy",
+            "markets",
+            "dxy us dollar currency index",
+            "jerome powell",
+            "nasdaq composite",
+            "nikkei 225 index"
+        ]
+    },
+    {
+        "_id": "63e2eeb2350a8a69a0727110",
+        "title": "CNBC Daily Open: Jerome Powell\u2019s speech was hawkish. Investors' mood was bullish",
+        "publish_timestamp": "2023-02-07 19:14:38",
+        "tickers": [
+            "GOOGL",
+            "BIDU",
+            "MSFT"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "interest rates",
+            "jerome powell",
+            "baidu inc",
+            "alphabet class a",
+            "business news",
+            "technology",
+            "federal reserve bank",
+            "central banking",
+            "inflation",
+            "neel kashkari",
+            "microsoft corp",
+            "world markets",
+            "markets"
+        ]
+    },
+    {
+        "_id": "63e2eec6ff602acd3b727111",
+        "title": "Facebook co-founder Moskovitz funds research into cooling the Earth with sunlight reflection",
+        "publish_timestamp": "2023-02-07 19:14:09",
+        "tickers": [
+            "META",
+            "ASAN"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "environment",
+            "business news",
+            "asana inc",
+            "climatology",
+            "brazil",
+            "south africa",
+            "chile",
+            "meta platforms inc",
+            "climate",
+            "technology",
+            "africa",
+            "india"
+        ]
+    },
+    {
+        "_id": "63e2eeb9c73d50761e727110",
+        "title": "Stock futures are little changed as traders assess Fed Chair Powell's inflation remarks",
+        "publish_timestamp": "2023-02-07 19:01:18",
+        "tickers": [
+            "HOOD",
+            "YUM",
+            ".DJI",
+            "EBAY",
+            ".IXIC",
+            ".SPX",
+            "CVS",
+            "UBER",
+            "FTNT",
+            "LUMN",
+            "US10Y",
+            "DIS",
+            "CMG",
+            "UAA"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "uber technologies inc",
+            "chipotle mexican grill inc",
+            "fortinet inc",
+            "cvs health corp",
+            "yum! brands inc",
+            "stock markets",
+            "walt disney co",
+            "robinhood markets inc",
+            "under armour inc",
+            "united states",
+            "breaking news: markets",
+            "business news",
+            "markets"
+        ]
+    },
+    {
+        "_id": "63e2eec6ff602acd3b727112",
+        "title": "Microsoft CEO Nadella calls A.I.-powered search biggest thing for company since cloud 15 years ago",
+        "publish_timestamp": "2023-02-07 18:59:34",
+        "tickers": [
+            "GOOGL",
+            "AMZN",
+            "MSFT",
+            "AAPL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "artificial intelligence",
+            "internet",
+            "alphabet class a",
+            "business news",
+            "enterprise",
+            "satya nadella",
+            "amazon.com inc",
+            "microsoft corp",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e2eeb741b05819de727110",
+        "title": "Chipotle Mexican Grill misses expectations for earnings, revenue and same-store sales",
+        "publish_timestamp": "2023-02-07 18:33:14",
+        "tickers": [
+            "CMG"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "breaking news: earnings",
+            "brian niccol",
+            "chipotle mexican grill inc",
+            "business news",
+            "earnings",
+            "breaking news: business",
+            "restaurants",
+            "business",
+            "retail industry",
+            "markets"
+        ]
+    },
+    {
+        "_id": "63e2eeb07507a5b227727110",
+        "title": "42% of daters think apps like Tinder and Bumble make it easier to find a long-term partner",
+        "publish_timestamp": "2023-02-07 18:25:18",
+        "tickers": [
+            "BMBL",
+            "MTCH"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "relationships",
+            "same sex marriage",
+            "long distance relationships",
+            "match group inc",
+            "bumble inc",
+            "dating",
+            "marriage",
+            "online dating",
+            "marriage rates"
+        ]
+    },
+    {
+        "_id": "63e2eeb1ee00e4b9f0727110",
+        "title": "Delta raises employee pay 5%, second increase in a year",
+        "publish_timestamp": "2023-02-07 18:05:20",
+        "tickers": [
+            "DAL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "transportation",
+            "ed bastian",
+            "delta air lines inc",
+            "travel",
+            "airlines",
+            "life",
+            "breaking news: business",
+            "aerospace and defense industry",
+            "business",
+            "united states",
+            "business news"
+        ]
+    },
+    {
+        "_id": "63e2eeb45436639960727110",
+        "title": "Ebay plans to lay off 500 employees, about 4% of its workforce",
+        "publish_timestamp": "2023-02-07 17:53:20",
+        "tickers": [
+            "ZM",
+            "GOOGL",
+            "EBAY",
+            "MSFT",
+            "CRM"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "internet",
+            "ebay inc",
+            "layoffs",
+            "business news",
+            "technology",
+            "jobs",
+            "zoom video communications inc"
+        ]
+    },
+    {
+        "_id": "63e2eeb45436639960727111",
+        "title": "Microsoft will let companies create their own custom versions of ChatGPT, source says",
+        "publish_timestamp": "2023-02-07 17:50:42",
+        "tickers": [
+            "GOOGL",
+            "MSFT"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "artificial intelligence",
+            "breaking news: technology",
+            "alphabet class a",
+            "business news",
+            "enterprise",
+            "business",
+            "satya nadella",
+            "microsoft corp",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e2eec6ff602acd3b727110",
+        "title": "Bitcoin rises above $23,000 after Fed Chair Powell says inflation is coming down",
+        "publish_timestamp": "2023-02-07 17:03:45",
+        "tickers": [
+            "BTC.CM="
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "bitcoin/usd coin metrics",
+            "jerome powell",
+            "economic events",
+            "investment strategy",
+            "bitcoin",
+            "business news",
+            "markets"
+        ]
+    },
+    {
+        "_id": "63e2eeb1f6b5d46742727111",
+        "title": "Stocks making the biggest moves after hours: Chipotle, Enphase Energy, Fortinet and more",
+        "publish_timestamp": "2023-02-07 17:03:28",
+        "tickers": [
+            "VFC",
+            "YUMC",
+            "ENPH",
+            "FTNT",
+            "9987-HK",
+            "LUMN",
+            "CMG"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE (CHIPOTLE MEXICAN GRILL, LUMEN TECHNOLOGIES, YUM CHINA HOLDINGS), POSITIVE (ENPHASE ENERGY, FORTINET, V.F. CORPORATION)"
+        },
+        "keywords": [
+            "enphase energy inc",
+            "chipotle mexican grill inc",
+            "fortinet inc",
+            "economy",
+            "vf corp",
+            "lumen technologies inc",
+            "stock markets",
+            "markets",
+            "business",
+            "market insider",
+            "breaking news: markets",
+            "business news",
+            "yum china holdings inc"
+        ]
+    },
+    {
+        "_id": "63e2eeba1d5e2464cf727110",
+        "title": "Billionaire Tesla bull Ron Baron says Musk suggested he would make multiples on his $100 million Twitter investment",
+        "publish_timestamp": "2023-02-07 14:28:18",
+        "tickers": [
+            "QUOTES",
+            "TWTR",
+            "TSLA"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "business news",
+            "twitter inc",
+            "investment strategy",
+            "tesla inc",
+            "venture capital",
+            "social media",
+            "twitter (delisted)",
+            "elon musk",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e290bfb2e68adbe9b02b7c",
+        "title": "Zoom to lay off 1,300 employees, or about 15% of its workforce",
+        "publish_timestamp": "2023-02-07 12:46:19",
+        "tickers": [
+            "CRM",
+            "GOOGL",
+            "ZM",
+            "DELL",
+            "MSFT"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "zoom video communications inc",
+            "internet",
+            "dell technologies inc",
+            "enterprise",
+            "business news",
+            "breaking news: technology"
+        ]
+    },
+    {
+        "_id": "63e290ba9d752684beb02b7b",
+        "title": "Microsoft to discuss OpenAI's ChatGPT at big event: Live updates",
+        "publish_timestamp": "2023-02-07 12:46:15",
+        "tickers": [
+            "MSFT"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "satya nadella",
+            "breaking news: technology",
+            "software",
+            "microsoft corp",
+            "consumer electronics",
+            "business news",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e290d50911783e69b02b7d",
+        "title": "Stocks making the biggest moves midday: Chegg, Hertz and Oak Street Health",
+        "publish_timestamp": "2023-02-07 12:40:30",
+        "tickers": [
+            "CHGG",
+            "LEG",
+            "HTZ",
+            "PINS",
+            "ZI",
+            "ZM",
+            "OSH",
+            "BIDU",
+            "SWKS",
+            "TSN",
+            "FISV",
+            "CVS",
+            "SG",
+            "LMT"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "market insider",
+            "leggett & platt inc",
+            "breaking news: markets",
+            "stock markets",
+            "oak street health inc",
+            "chegg inc",
+            "business news",
+            "pinterest inc",
+            "baidu inc",
+            "zoom video communications inc",
+            "sweetgreen inc",
+            "economy",
+            "cvs health corp",
+            "lockheed martin corp",
+            "skyworks solutions inc",
+            "tyson foods inc",
+            "hertz global holdings inc",
+            "zoominfo technologies inc",
+            "markets",
+            "breaking news",
+            "fiserv inc"
+        ]
+    },
+    {
+        "_id": "63e290ee6510411d5ab02b7d",
+        "title": "Bed Bath & Beyond lines up funding in a last-ditch bid to avoid bankruptcy",
+        "publish_timestamp": "2023-02-07 12:38:13",
+        "tickers": [
+            "BBBY"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "corporate bonds",
+            "retail industry",
+            "breaking news: business",
+            "corporate bankruptcy",
+            "business news",
+            "business",
+            "markets",
+            "bed bath & beyond inc"
+        ]
+    },
+    {
+        "_id": "63e290e30fbf6e1b69b02b7d",
+        "title": "Plant-based salmon startup capitalizes on rising interest in fake seafood",
+        "publish_timestamp": "2023-02-07 12:36:59",
+        "tickers": [
+            "BYND"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "business news",
+            "beyond meat inc",
+            "restaurants",
+            "climate"
+        ]
+    },
+    {
+        "_id": "63e290c88bf285c034b02b7c",
+        "title": "Watch Federal Reserve Chair Jerome Powell discuss inflation, interest rates and the economy",
+        "publish_timestamp": "2023-02-07 12:31:34",
+        "tickers": [
+            "CG"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "inflation",
+            "interest rates",
+            "livestream",
+            "breaking news: economy",
+            "economy",
+            "carlyle group inc",
+            "david rubenstein",
+            "jerome powell",
+            "federal reserve bank",
+            "business news",
+            "markets",
+            "breaking news",
+            "central banking"
+        ]
+    },
+    {
+        "_id": "63e290da349cdcb931b02b7b",
+        "title": "European markets close slightly higher ahead of Powell speech",
+        "publish_timestamp": "2023-02-07 11:55:12",
+        "tickers": [
+            ".GDAXI",
+            ".STOXX",
+            "ENR-DE",
+            "BNP-FR",
+            "0QWC-GB",
+            ".FTSE",
+            ".FCHI",
+            ".FTMIB",
+            "BP",
+            "BP.-LN",
+            "0MJF-GB"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "united states",
+            "jerome powell",
+            "business news",
+            "breaking news: europe",
+            "stoxx 600"
+        ]
+    },
+    {
+        "_id": "63e290c37c5e28270fb02b7b",
+        "title": "Billionaire Tesla bull Ron Baron says Musk promised him multiples on his $100 million Twitter investment",
+        "publish_timestamp": "2023-02-07 11:50:19",
+        "tickers": [
+            "TWTR",
+            "QUOTES",
+            "TSLA"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "tesla inc",
+            "twitter (delisted)",
+            "investment strategy",
+            "twitter inc",
+            "elon musk",
+            "business news",
+            "technology",
+            "social media",
+            "venture capital"
+        ]
+    },
+    {
+        "_id": "63e290e30fbf6e1b69b02b7c",
+        "title": "This loan calculator shows how quickly you can get out of debt",
+        "publish_timestamp": "2023-02-07 11:36:13",
+        "tickers": [
+            "TRU"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "united states",
+            "transunion",
+            "economic events",
+            "personal debt",
+            "credit card debt",
+            "personal finance"
+        ]
+    },
+    {
+        "_id": "63e290d1d42f11a773b02b7c",
+        "title": "French bank BNP Paribas reports bumper profit for 2022, boosts stock purchase plan",
+        "publish_timestamp": "2023-02-07 10:08:36",
+        "tickers": [
+            ".STOXX",
+            "BNP-FR"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "banks",
+            "politics",
+            "europe news",
+            "business news",
+            "stoxx 600",
+            "european central bank",
+            "earnings",
+            "bnp paribas sa"
+        ]
+    },
+    {
+        "_id": "63e290da349cdcb931b02b7c",
+        "title": "Turkey's President Erdogan declares 3-month state of emergency for quake-hit regions",
+        "publish_timestamp": "2023-02-07 10:01:41",
+        "tickers": [
+            ".DXY",
+            "TRY="
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "natural disasters",
+            "united states",
+            "turkey",
+            "emerging markets",
+            "syria",
+            "joe biden",
+            "us dollar/turkish lira fx spot rate",
+            "politics",
+            "business news",
+            "breaking news: europe",
+            "recep tayyip erdogan",
+            "dxy us dollar currency index"
+        ]
+    },
+    {
+        "_id": "63e290c88bf285c034b02b7b",
+        "title": "Hertz fourth-quarter profit beats as costs come down and travel rebounds",
+        "publish_timestamp": "2023-02-07 10:00:49",
+        "tickers": [
+            "HTZ"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "business",
+            "hertz global holdings inc",
+            "business news",
+            "transportation",
+            "earnings"
+        ]
+    },
+    {
+        "_id": "63e290ee6510411d5ab02b7e",
+        "title": "Treasury yields are flat as investors look to remarks from Fed Chairman Powell",
+        "publish_timestamp": "2023-02-07 08:49:31",
+        "tickers": [
+            "US10Y",
+            "US2Y"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "breaking news: markets",
+            "treasury bills",
+            "u.s. treasury bonds",
+            "united states",
+            "bonds",
+            "u.s. 2 year treasury",
+            "interest rates",
+            "recessions and depressions",
+            "u.s. 10 year treasury",
+            "economic events",
+            "treasury notes",
+            "economic outlook",
+            "business news",
+            "central banking"
+        ]
+    },
+    {
+        "_id": "63e290e30fbf6e1b69b02b7b",
+        "title": "Stocks making the biggest moves premarket: Chegg, Baidu, Bed Bath & Beyond, Hertz and more",
+        "publish_timestamp": "2023-02-07 08:05:31",
+        "tickers": [
+            "CHGG",
+            "FDS",
+            "HTZ",
+            "LEG",
+            "PINS",
+            "SAVE",
+            "DD",
+            "ZI",
+            "OSH",
+            "ATVI",
+            "BIDU",
+            "SWKS",
+            "BBBY",
+            "CVS"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "factset research systems inc",
+            "market insider",
+            "activision blizzard inc",
+            "leggett & platt inc",
+            "breaking news: markets",
+            "stock markets",
+            "oak street health inc",
+            "chegg inc",
+            "business news",
+            "pinterest inc",
+            "bed bath & beyond inc",
+            "baidu inc",
+            "economy",
+            "spirit airlines inc",
+            "cvs health corp",
+            "skyworks solutions inc",
+            "dupont de nemours inc",
+            "hertz global holdings inc",
+            "zoominfo technologies inc",
+            "business",
+            "markets"
+        ]
+    },
+    {
+        "_id": "63e290c36feeac2403b02b7d",
+        "title": "Why traffic can't be solved with just adding more highway lanes",
+        "publish_timestamp": "2023-02-07 08:00:01",
+        "tickers": [
+            "PCAR",
+            "DTG-DE",
+            "8TRA-DE",
+            "VOLV.B-SE"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "trucking",
+            "volvo ab",
+            "new york city",
+            "daimler truck holding ag",
+            "singapore",
+            "automobile manufacturing",
+            "london",
+            "paccar inc",
+            "autos",
+            "business news",
+            "transportation",
+            "traton se"
+        ]
+    },
+    {
+        "_id": "63e290c36feeac2403b02b7c",
+        "title": "Here's how much you need to save every month to earn $65,000 per year in interest for retirement",
+        "publish_timestamp": "2023-02-07 08:00:01",
+        "tickers": [
+            "NRDS"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "millennials",
+            "retirement planning",
+            "investment strategy",
+            "generation y",
+            "exchange-traded funds",
+            "nerdwallet inc",
+            "business news",
+            "personal saving",
+            "personal finance"
+        ]
+    },
+    {
+        "_id": "63e290da349cdcb931b02b7d",
+        "title": "Mark Mobius: Adani had 'big problems' that put me off, but India still looks appealing",
+        "publish_timestamp": "2023-02-07 07:44:02",
+        "tickers": [
+            "ADANITRANS-IN",
+            "ADANIGREEN-IN",
+            ".NSEI",
+            "ADANIENT-IN",
+            "ADANIPOWER-IN",
+            "QUOTES",
+            "UTISXN50-IN"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "asia economy",
+            "uti s&p bse sensex next 50 exchange traded fund",
+            "cnx nifty index",
+            "adani total gas ltd",
+            "business news"
+        ]
+    },
+    {
+        "_id": "63e290c37c5e28270fb02b7c",
+        "title": "5 things to know before the stock market opens Tuesday",
+        "publish_timestamp": "2023-02-07 07:10:01",
+        "tickers": [
+            "GOOGL",
+            "AMC",
+            "GOOG",
+            "MSFT"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "alphabet class a",
+            "investment strategy",
+            "microsoft corp",
+            "economy",
+            "alphabet class c",
+            "business news",
+            "business",
+            "markets",
+            "amc entertainment holdings inc"
+        ]
+    },
+    {
+        "_id": "63e290d50911783e69b02b7b",
+        "title": "Bill Gates on why he'll carry on using private jets and campaigning on climate change",
+        "publish_timestamp": "2023-02-07 06:57:41",
+        "tickers": [
+            "MSFT"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "energy",
+            "kenya",
+            "climate",
+            "business news",
+            "environment",
+            "microsoft corp",
+            "renewable energy",
+            "bill gates",
+            "bbc",
+            "alternative and sustainable energy"
+        ]
+    },
+    {
+        "_id": "63e290b4cb377eebe6b02b7b",
+        "title": "Nintendo cuts sales forecast for its ageing Switch console after disappointing holiday season",
+        "publish_timestamp": "2023-02-07 06:31:49",
+        "tickers": [
+            "7974.T-JP",
+            "6758.T-JP"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "game consoles",
+            "sony group corp",
+            "business news",
+            "games",
+            "earnings",
+            "nintendo co ltd"
+        ]
+    },
+    {
+        "_id": "63e290d1d42f11a773b02b7b",
+        "title": "BP posts record 2022 earnings to join Big Oil profit bonanza",
+        "publish_timestamp": "2023-02-07 03:51:43",
+        "tickers": [
+            "XOM",
+            "SHEL-GB",
+            "CVX",
+            "TTE-FR",
+            "BP.-GB",
+            "BP.-LN"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "energy",
+            "oil and gas",
+            "business news",
+            "bp plc",
+            "ukraine",
+            "breaking news: europe",
+            "earnings"
+        ]
+    },
+    {
+        "_id": "63e290ee6510411d5ab02b7b",
+        "title": "SoftBank's Vision Fund posts fourth straight quarter of losses as tech slump hits Japanese giant",
+        "publish_timestamp": "2023-02-07 03:43:06",
+        "tickers": [
+            "BABA",
+            "GTOFF",
+            "GOTO-ID",
+            "UBER",
+            "9984.T-JP"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "softbank group corp",
+            "goto gojek tokopedia pt",
+            "investment strategy",
+            "goto gojek tokopedia pt tbk",
+            "uber technologies inc",
+            "business news",
+            "markets",
+            "earnings"
+        ]
+    },
+    {
+        "_id": "63e290ee6510411d5ab02b7c",
+        "title": "Asia markets mixed as Australia raises interest rates; Baidu jumps on chatbot project",
+        "publish_timestamp": "2023-02-07 03:33:59",
+        "tickers": [
+            ".DXY",
+            ".KS11",
+            "BIDU",
+            ".DJI",
+            ".IXIC",
+            "@LCO.1",
+            "9984.T-JP",
+            "JPY=",
+            ".FKRX300",
+            "UNDEFINED",
+            "ADANIENT-IN",
+            ".N225",
+            "AUD=",
+            "ADANITRANS-IN",
+            ".AXJO",
+            "9987-HK",
+            "9888-HK",
+            ".HSI",
+            ".SPX",
+            "7974.T-JP",
+            ".SSEC",
+            "ADANIPORTS-IN",
+            "@CL.1",
+            ".SZI"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "wti crude (mar'23)",
+            "kospi index",
+            "south korea",
+            "nintendo co ltd",
+            "breaking news: markets",
+            "yum china holdings inc",
+            "asia economy",
+            "nikkei 225 index",
+            "s&p/asx 200",
+            "business news",
+            "baidu inc",
+            "australia",
+            "united states",
+            "usd/jpy",
+            "hang seng index",
+            "kb financial group inc",
+            "breaking news: asia",
+            "shanghai",
+            "world markets",
+            "shenzhen component index",
+            "australian dollar/us dollar fx spot rate",
+            "softbank group corp",
+            "economic events",
+            "china",
+            "japan",
+            "markets",
+            "ice brent crude (apr'23)",
+            "dxy us dollar currency index"
+        ]
+    },
+    {
+        "_id": "63e290bb2bc5991f62b02b7b",
+        "title": "U.S. Treasury bond yields rise \u2014 and stock markets fall \u2014 on January jobs report",
+        "publish_timestamp": "2023-02-07 01:34:19",
+        "tickers": [
+            "GOOGL",
+            "ADANIENT-IN",
+            "BUSD.CM=",
+            "BIDU",
+            "MSFT"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "jobs",
+            "world markets",
+            "alphabet class a",
+            "united states",
+            "business news",
+            "interest rates",
+            "binance usd/usd",
+            "baidu inc",
+            "microsoft corp",
+            "india",
+            "cryptocurrency exchanges",
+            "markets",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e290c181a57f91beb02b7b",
+        "title": "Baidu leaps to 11-month high as it reveals plan to launch ChatGPT-style 'Ernie Bot'",
+        "publish_timestamp": "2023-02-06 23:30:23",
+        "tickers": [
+            "BIDU",
+            "9888-HK",
+            "MSFT",
+            "GOOGL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "alphabet class a",
+            "baidu inc",
+            "microsoft corp",
+            "business news",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e290d1d42f11a773b02b7d",
+        "title": "There isn't enough copper in the world \u2014 and the shortage could last till 2030",
+        "publish_timestamp": "2023-02-06 21:28:46",
+        "tickers": [
+            "GSBD",
+            "GS"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "chile",
+            "goldman sachs group inc",
+            "china",
+            "goldman sachs bdc inc",
+            "commodity markets",
+            "business news"
+        ]
+    },
+    {
+        "_id": "63e290d50911783e69b02b7c",
+        "title": "U.S. Treasury bond yields rise \u2014 and stock markets fall \u2014 on January\u2019s jobs report",
+        "publish_timestamp": "2023-02-06 20:43:18",
+        "tickers": [
+            "GOOGL",
+            "ADANIENT-IN",
+            "DELL",
+            "BUSD.CM="
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "jobs",
+            "world markets",
+            "alphabet class a",
+            "united states",
+            "business news",
+            "interest rates",
+            "binance usd/usd",
+            "india",
+            "dell technologies inc",
+            "cryptocurrency exchanges",
+            "markets",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e18507e324fe8bb6819c78",
+        "title": "Google announces Bard A.I. in response to ChatGPT",
+        "publish_timestamp": "2023-02-06 17:44:51",
+        "tickers": [
+            "MSFT",
+            "GOOG",
+            "GOOGL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "alphabet class a",
+            "business news",
+            "microsoft corp",
+            "breaking news: technology",
+            "alphabet class c",
+            "artificial intelligence"
+        ]
+    },
+    {
+        "_id": "63e184ebf72dac1bcd819c78",
+        "title": "Microsoft likely to reveal ChatGPT-related service at event on Tuesday",
+        "publish_timestamp": "2023-02-06 17:26:07",
+        "tickers": [
+            "MSFT",
+            "AAPL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "internet",
+            "enterprise",
+            "microsoft corp",
+            "business news",
+            "technology",
+            "artificial intelligence"
+        ]
+    },
+    {
+        "_id": "63e184f2ee9a9672ef819c77",
+        "title": "Google CEO issues rallying cry in internal memo: All hands on deck to test ChatGPT competitor Bard",
+        "publish_timestamp": "2023-02-06 17:23:45",
+        "tickers": [
+            "GOOG",
+            "GOOGL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "internet",
+            "business news",
+            "breaking news: technology",
+            "sundar pichai",
+            "google",
+            "technology",
+            "alphabet class c",
+            "artificial intelligence",
+            "alphabet class a"
+        ]
+    },
+    {
+        "_id": "63e184fcf2756a8da4819c78",
+        "title": "Stocks making the biggest moves after hours: Pinterest, Chegg, Take-Two Interactive and more",
+        "publish_timestamp": "2023-02-06 17:14:17",
+        "tickers": [
+            "CHGG",
+            "SAVE",
+            "TTWO",
+            "SWKS",
+            "PINS",
+            "LEG",
+            "ZI"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "skyworks solutions inc",
+            "spirit airlines inc",
+            "market insider",
+            "markets",
+            "leggett & platt inc",
+            "business news",
+            "wall street",
+            "chegg inc",
+            "breaking news: markets",
+            "pinterest inc",
+            "earnings",
+            "zoominfo technologies inc",
+            "take-two interactive software inc"
+        ]
+    },
+    {
+        "_id": "63e18507e324fe8bb6819c79",
+        "title": "Crypto exchange Binance will suspend U.S. dollar transfers",
+        "publish_timestamp": "2023-02-06 16:41:03",
+        "tickers": [
+            "USDC.CM=",
+            "USDT.CM=",
+            "SBNY",
+            "BNB.CM=",
+            "BTC.CB="
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "tether/usd coin metrics",
+            "usd coin/usd",
+            "binance/usd coin metrics",
+            "cryptocurrency exchanges",
+            "business news",
+            "cryptocurrency",
+            "united states",
+            "u.s. dollar",
+            "fintech",
+            "investment strategy",
+            "technology",
+            "signature bank",
+            "bitcoin/usd coinbase"
+        ]
+    },
+    {
+        "_id": "63e184d535ff905912819c77",
+        "title": "AMC Theatres is changing the way it prices movie tickets\u2014here's how it will work",
+        "publish_timestamp": "2023-02-06 16:35:05",
+        "tickers": [
+            "AMC"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "amc entertainment holdings inc"
+        ]
+    },
+    {
+        "_id": "63e184ddfd5d2ac3ce819c78",
+        "title": "10-year rises above 3.6% for the first time in nearly a month as traders weigh economic outlook",
+        "publish_timestamp": "2023-02-06 16:21:22",
+        "tickers": [
+            "CMG",
+            "US10Y",
+            "US2Y",
+            "DIS"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "interest rates",
+            "u.s. 2 year treasury",
+            "treasury notes",
+            "u.s. treasury bonds",
+            "central banking",
+            "jerome powell",
+            "treasury bills",
+            "breaking news: markets",
+            "u.s. economy",
+            "chipotle mexican grill inc",
+            "business news",
+            "economic events",
+            "united states",
+            "walt disney co",
+            "economic outlook",
+            "bonds",
+            "u.s. 10 year treasury",
+            "federal reserve bank"
+        ]
+    },
+    {
+        "_id": "63e184d7156f636a8c819c77",
+        "title": "Bitcoin struggles around $23,000 level as new-year rally loses steam",
+        "publish_timestamp": "2023-02-06 16:20:29",
+        "tickers": [
+            ".DXY",
+            "US10Y",
+            "BTC.CM="
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "bitcoin/usd coin metrics",
+            "markets",
+            "business news",
+            "bitcoin",
+            "breaking news: markets",
+            "investment strategy",
+            "dxy us dollar currency index",
+            "cryptocurrency",
+            "u.s. 10 year treasury"
+        ]
+    },
+    {
+        "_id": "63e184fb1230c8a683819c77",
+        "title": "Stocks making the biggest moves midday: Dell, On Semiconductor, PayPal, Catalent & more",
+        "publish_timestamp": "2023-02-06 16:11:05",
+        "tickers": [
+            "DELL",
+            "PLCE",
+            "ENR",
+            "ON",
+            "TMUS",
+            "PYPL",
+            "ALGN",
+            "CTLT",
+            "UAA",
+            "TSN"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "paypal holdings inc",
+            "on semiconductor corp",
+            "market insider",
+            "markets",
+            "stock markets",
+            "breaking news",
+            "business news",
+            "energizer holdings inc",
+            "dell technologies inc",
+            "breaking news: markets",
+            "t-mobile us inc",
+            "catalent inc",
+            "children's place retail stores inc",
+            "under armour inc",
+            "economy",
+            "tyson foods inc",
+            "align technology inc"
+        ]
+    },
+    {
+        "_id": "63e184d4385977cb73819c77",
+        "title": "Dell to lay off 6,650 workers, or 5% of its workforce",
+        "publish_timestamp": "2023-02-06 16:03:31",
+        "tickers": [
+            "DELL",
+            "GOOGL",
+            "CRM",
+            "AAPL",
+            "MSFT",
+            "PYPL"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "internet",
+            "paypal holdings inc",
+            "media",
+            "business news",
+            "apple inc",
+            "dell technologies inc",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e184fb1230c8a683819c79",
+        "title": "Canoo's shares sink after EV maker agrees to sell $52 million in discounted stock",
+        "publish_timestamp": "2023-02-06 16:02:21",
+        "tickers": [
+            "GOEV"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "stock markets",
+            "transportation",
+            "business news",
+            "business",
+            "canoo inc",
+            "climate",
+            "electric vehicles",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e18507e324fe8bb6819c7a",
+        "title": "Amazon scales back cargo flying as demand cools, contractor says",
+        "publish_timestamp": "2023-02-06 15:53:03",
+        "tickers": [
+            "SNCY",
+            "AMZN",
+            "DAL",
+            "AAWW",
+            "ATSG",
+            "FDX",
+            "BA"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "internet",
+            "air transport services group inc",
+            "delta air lines inc",
+            "amazon.com inc",
+            "business news",
+            "atlas air worldwide holdings inc",
+            "fedex corp",
+            "aerospace and defense industry",
+            "sun country airlines holdings inc",
+            "technology",
+            "airlines",
+            "boeing co"
+        ]
+    },
+    {
+        "_id": "63e184ebf72dac1bcd819c77",
+        "title": "More than half of all 'Avatar: The Way of Water' tickets have been for 3D showings",
+        "publish_timestamp": "2023-02-06 15:16:27",
+        "tickers": [
+            "IMAX",
+            "DIS"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "business news",
+            "entertainment",
+            "movies",
+            "business",
+            "life",
+            "breaking news: business",
+            "imax corp",
+            "walt disney co"
+        ]
+    },
+    {
+        "_id": "63e184d2c6e1afd3f9819c77",
+        "title": "George Santos denies sexual harassment accusation from ex-prospective staffer",
+        "publish_timestamp": "2023-02-06 15:11:34",
+        "tickers": [
+            "TWTR"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "crime",
+            "business news",
+            "breaking news: politics",
+            "laws",
+            "politics",
+            "twitter inc",
+            "santos",
+            "twitter (delisted)"
+        ]
+    },
+    {
+        "_id": "63e184e63fea48e2e9819c78",
+        "title": "FAA proposes more than $1 million fine on United Airlines over preflight safety checks",
+        "publish_timestamp": "2023-02-06 14:59:14",
+        "tickers": [
+            "BA",
+            "UAL"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "transportation",
+            "business news",
+            "travel",
+            "airlines",
+            "politics",
+            "aerospace and defense industry",
+            "business",
+            "life",
+            "breaking news: business",
+            "united airlines holdings inc",
+            "boeing co"
+        ]
+    },
+    {
+        "_id": "63e184ddfd5d2ac3ce819c77",
+        "title": "Mediterranean restaurant chain Cava confidentially files for an IPO",
+        "publish_timestamp": "2023-02-06 12:54:35",
+        "tickers": [
+            "SG",
+            "CMG"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "sweetgreen inc",
+            "business news",
+            "retail industry",
+            "chipotle mexican grill inc",
+            "business",
+            "restaurants",
+            "breaking news: business"
+        ]
+    },
+    {
+        "_id": "63e184ee093f1d406d819c77",
+        "title": "European markets close lower as investors gauge economic outlook",
+        "publish_timestamp": "2023-02-06 11:53:25",
+        "tickers": [
+            "RNO-FR",
+            "0NQF-GB",
+            ".GDAXI",
+            "IT10Y-IT",
+            "GR10Y-GR",
+            ".IXIC",
+            ".FCHI",
+            "7201.T-JP",
+            ".SPX",
+            ".STOXX",
+            ".FTSE",
+            ".FTMIB",
+            ".DJI",
+            "DE10Y-DE",
+            "DARK-GB"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "business news",
+            "breaking news: europe",
+            "economic events",
+            "stoxx 600",
+            "united states",
+            "nissan motor co ltd",
+            "renault sa"
+        ]
+    },
+    {
+        "_id": "63e184e63fea48e2e9819c77",
+        "title": "'Phishing-as-a-service' kits are driving an uptick in theft: What you can learn from one business owner's story",
+        "publish_timestamp": "2023-02-06 11:20:02",
+        "tickers": [
+            "JPM"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "crime",
+            "jpmorgan chase & co",
+            "business news",
+            "cybersecurity",
+            "business",
+            "life",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e184fcf2756a8da4819c77",
+        "title": "Retailers in China enact rare price cuts for Apple's high-end iPhone 14 line",
+        "publish_timestamp": "2023-02-06 10:34:17",
+        "tickers": [
+            "9618-HK",
+            "AAPL",
+            "2354-TW",
+            "JD"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "mobile phones",
+            "business news",
+            "apple inc",
+            "smartphones",
+            "iphone",
+            "jd.com inc",
+            "foxconn technology co ltd",
+            "china"
+        ]
+    },
+    {
+        "_id": "63e184e89a5645dddf819c78",
+        "title": "From Nike to Nutella: Company names you have probably been mispronouncing your whole life",
+        "publish_timestamp": "2023-02-06 09:47:52",
+        "tickers": [
+            "0JHU-GB",
+            "0OLD-GB",
+            "QUOTES",
+            "NKE",
+            "LVMHF",
+            "VOW3-DE",
+            "0QZ6-GB",
+            "ADS-DE",
+            "ALV-DE",
+            "MC-FR"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "volkswagen ag",
+            "allianz se",
+            "marketing",
+            "business news",
+            "marketing campaigns",
+            "lvmh moet hennessy louis vuitton se",
+            "adidas ag",
+            "south korea",
+            "porsche automobil holding prf",
+            "hubert de givenchy",
+            "nike inc"
+        ]
+    },
+    {
+        "_id": "63e184fb1230c8a683819c78",
+        "title": "National Enquirer sold to group that includes indicted ex-MoviePass chairman",
+        "publish_timestamp": "2023-02-06 09:04:56",
+        "tickers": [
+            "BBIG"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "crime",
+            "media",
+            "business news",
+            "politics",
+            "donald trump",
+            "publishing",
+            "vinco ventures inc"
+        ]
+    },
+    {
+        "_id": "63e184fcf2756a8da4819c79",
+        "title": "A prominent UK cybersecurity stock is under attack from short sellers. Here's what you need to know",
+        "publish_timestamp": "2023-02-06 08:55:54",
+        "tickers": [
+            "DARK-GB"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "internet",
+            "london",
+            "markets",
+            "business news",
+            "cybersecurity",
+            "technology",
+            "darktrace plc"
+        ]
+    },
+    {
+        "_id": "63e184e89a5645dddf819c77",
+        "title": "Shake Shack unveils fine dining-inspired white truffle menu: 'It's something nobody else could do the way we could'",
+        "publish_timestamp": "2023-02-06 08:05:01",
+        "tickers": [
+            "QUOTES",
+            "SHAK"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "shake shack inc",
+            "entrepreneurship"
+        ]
+    },
+    {
+        "_id": "63e184f670cee1f626819c79",
+        "title": "Stocks making the biggest moves premarket: Tyson Foods, PayPal, Children's Place and more",
+        "publish_timestamp": "2023-02-06 07:49:05",
+        "tickers": [
+            "LYFT",
+            "DELL",
+            "PLCE",
+            "ENR",
+            "TMUS",
+            "SPOT",
+            "PYPL",
+            "TSN"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "paypal holdings inc",
+            "stock markets",
+            "markets",
+            "market insider",
+            "business news",
+            "spotify technology sa",
+            "energizer holdings inc",
+            "dell technologies inc",
+            "breaking news: markets",
+            "business",
+            "lyft inc",
+            "t-mobile us inc",
+            "children's place retail stores inc",
+            "economy",
+            "tyson foods inc"
+        ]
+    },
+    {
+        "_id": "63e184f670cee1f626819c77",
+        "title": "Former UK PM Liz Truss is blaming the left-wing 'economic establishment' for ousting her",
+        "publish_timestamp": "2023-02-06 07:24:32",
+        "tickers": [
+            "GBP=",
+            "UK10Y-GB"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "british 10 year gilt",
+            "business news",
+            "gbp/usd",
+            "central banking",
+            "politics",
+            "economy"
+        ]
+    },
+    {
+        "_id": "63e184ebf72dac1bcd819c79",
+        "title": "5 things to know before the stock market opens Monday",
+        "publish_timestamp": "2023-02-06 06:55:01",
+        "tickers": [
+            "MAT",
+            "UBER",
+            "YUM",
+            "PEP",
+            "CMG",
+            "PINS",
+            "HTZ",
+            "PYPL",
+            "TSN",
+            "DIS"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "paypal holdings inc",
+            "mattel inc",
+            "pepsico inc.",
+            "markets",
+            "business news",
+            "chipotle mexican grill inc",
+            "hertz global holdings inc",
+            "business",
+            "uber technologies inc",
+            "pinterest inc",
+            "investment strategy",
+            "walt disney co",
+            "yum! brands inc",
+            "economy",
+            "tyson foods inc"
+        ]
+    },
+    {
+        "_id": "63e184f2ee9a9672ef819c78",
+        "title": "Adani rout deepens despite soothing words from India's government and billionaires",
+        "publish_timestamp": "2023-02-06 01:39:19",
+        "tickers": [
+            "ADANIGREEN-IN",
+            "ADANIPOWER-IN",
+            "ADANIPORTS-IN",
+            "ADANITRANS-IN",
+            "ADANIENT-IN",
+            "ATGL-IN"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "stock markets",
+            "markets",
+            "business news",
+            "adani port and special economic zone ltd",
+            "investment strategy",
+            "bonds",
+            "adani green energy ltd",
+            "mumbai"
+        ]
+    },
+    {
+        "_id": "63e184f670cee1f626819c78",
+        "title": "Huawei turns to patents for a lifeline \u2014 including those in the U.S.",
+        "publish_timestamp": "2023-02-05 22:06:29",
+        "tickers": [
+            "9618-HK",
+            "JD",
+            "IBM",
+            "NOKIA-FI",
+            "AAPL",
+            "2330-TW",
+            "NOK"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "nokia oyj",
+            "international business machines corp",
+            "stock markets",
+            "market insider",
+            "markets",
+            "business news",
+            "apple inc",
+            "jd.com inc",
+            "nokia corp",
+            "taiwan semiconductor manufacturing co ltd",
+            "technology"
+        ]
+    },
+    {
+        "_id": "63e18507e324fe8bb6819c77",
+        "title": "January's U.S. jobs reports was stunningly good",
+        "publish_timestamp": "2023-02-05 19:40:54",
+        "tickers": [
+            "AAPL",
+            "GOOGL",
+            "AMZN"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "world markets",
+            "interest rates",
+            "markets",
+            "business news",
+            "amazon.com inc",
+            "apple inc",
+            "jobs",
+            "employment figures",
+            "united states",
+            "technology",
+            "alphabet class a"
+        ]
+    },
+    {
+        "_id": "63e0439e0204d8a216c0ed11",
+        "title": "Asia markets to rise while U.S. jobs report hints at room for more hikes, Adani saga continues",
+        "publish_timestamp": "2023-02-05 18:53:19",
+        "tickers": [
+            "@CL.1",
+            ".HSI",
+            "AAPL",
+            "@LCO.1",
+            ".KS11",
+            ".N225",
+            ".AXJO",
+            ".SZI",
+            "AUD=",
+            "JPY=",
+            ".DXY",
+            ".SSEC"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "breaking news: asia",
+            "kospi index",
+            "ice brent crude (apr'23)",
+            "australian dollar/us dollar fx spot rate",
+            "dxy us dollar currency index",
+            "usd/jpy",
+            "nikkei 225 index",
+            "breaking news: markets",
+            "s&p/asx 200",
+            "markets",
+            "hang seng index",
+            "business news",
+            "shenzhen component index",
+            "shanghai",
+            "asia economy",
+            "wti crude (mar'23)",
+            "world markets"
+        ]
+    },
+    {
+        "_id": "63e043982080d2c896c0ed11",
+        "title": "Optimism on Chinese stocks soars to five-year highs",
+        "publish_timestamp": "2023-02-05 18:45:35",
+        "tickers": [
+            "9626-HK",
+            "PDD",
+            "BILI",
+            "BIDU"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "bilibili inc",
+            "stock markets",
+            "markets",
+            "pinduoduo inc",
+            "market insider",
+            "business news",
+            "baidu inc"
+        ]
+    },
+    {
+        "_id": "63e0439022f4b6ae61c0ed11",
+        "title": "Stock futures slide to start week with more earnings and a Powell speech ahead",
+        "publish_timestamp": "2023-02-05 18:41:52",
+        "tickers": [
+            "CMI",
+            "TSN"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "united states",
+            "economic events",
+            "tyson foods inc",
+            "cummins inc",
+            "breaking news: markets",
+            "stock markets",
+            "markets",
+            "business news",
+            "jerome powell"
+        ]
+    },
+    {
+        "_id": "63e04392039f520da2c0ed11",
+        "title": "Elon Musk says Twitter is \u2018trending to breakeven\u2019 after near bankruptcy",
+        "publish_timestamp": "2023-02-05 18:28:58",
+        "tickers": [
+            "TWTR",
+            "TSLA"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "elon musk",
+            "enterprise",
+            "tesla inc",
+            "twitter (delisted)",
+            "business news",
+            "internet",
+            "technology",
+            "social media"
+        ]
+    },
+    {
+        "_id": "63e04390bb390a43a1c0ed11",
+        "title": "The biggest risks in procrastinating on iPhone, Android software updates",
+        "publish_timestamp": "2023-02-05 10:05:50",
+        "tickers": [
+            "AAPL",
+            "GOOGL"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "security software",
+            "mobile phones",
+            "telecommunications",
+            "business news",
+            "alphabet class a",
+            "ios",
+            "cybersecurity",
+            "apple inc",
+            "android",
+            "iphone users",
+            "smartphones",
+            "iphone"
+        ]
+    },
+    {
+        "_id": "63e0438df61ebaff4ac0ed11",
+        "title": "CEO of Hilton says a Porsche was the dumbest thing he ever bought: 'I spent all my money on that stupid car'",
+        "publish_timestamp": "2023-02-05 09:00:01",
+        "tickers": [
+            "HGV"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "hilton grand vacations inc"
+        ]
+    },
+    {
+        "_id": "63e0439327634d55d4c0ed11",
+        "title": "Top Wall Street analysts find these stocks compelling",
+        "publish_timestamp": "2023-02-05 08:42:32",
+        "tickers": [
+            "CAT",
+            "TSLA",
+            "MDLZ",
+            "MCD",
+            "AMD"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "elon musk",
+            "mcdonald's corp",
+            "tesla inc",
+            "caterpillar inc",
+            "breaking news: markets",
+            "markets",
+            "business news",
+            "mondelez international inc",
+            "advanced micro devices inc",
+            "weekend brief",
+            "investment strategy"
+        ]
+    },
+    {
+        "_id": "63e0439e0204d8a216c0ed12",
+        "title": "Amid food inflation, more shoppers turn to dollar stores for groceries",
+        "publish_timestamp": "2023-02-05 08:30:01",
+        "tickers": [
+            "DLTR",
+            "DG",
+            "AXP",
+            "WMT"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "personal finance",
+            "prices",
+            "dollar tree inc",
+            "personal loans",
+            "inflation",
+            "personal saving",
+            "walmart inc",
+            "food and drink",
+            "retail industry",
+            "american express co",
+            "business news",
+            "dollar general corp",
+            "investment strategy"
+        ]
+    },
+    {
         "_id": "63ded57e6d0b9fa6a2e5defa",
         "title": "How the end of Netflix password sharing will change the way families watch, especially the ones with college-age children",
         "publish_timestamp": "2023-02-04 13:32:37",
@@ -14470,30 +17405,6 @@
         ]
     },
     {
-        "_id": "63c61745a765e515e64adb4e",
-        "title": "Walmart strikes a deal with Salesforce to sell more of its tech to other retailers",
-        "publish_timestamp": "2023-01-12 13:00:01",
-        "tickers": [
-            "WMT",
-            "AMZN",
-            "CRM",
-            "HD"
-        ],
-        "sentiment": {
-            "Sentiment": "POSITIVE"
-        },
-        "keywords": [
-            "home depot inc",
-            "walmart inc",
-            "amazon.com inc",
-            "business",
-            "business news",
-            "salesforce inc",
-            "retail industry",
-            "breaking news: business"
-        ]
-    },
-    {
         "_id": "63c61745a765e515e64adb4d",
         "title": "FTX founder Sam Bankman-Fried denies stealing user funds and repeats claims of solvency in new post",
         "publish_timestamp": "2023-01-12 13:00:01",
@@ -14527,6 +17438,30 @@
             "sam bankman-fried",
             "ftx token/usd coin metrics",
             "tesla inc"
+        ]
+    },
+    {
+        "_id": "63c61745a765e515e64adb4e",
+        "title": "Walmart strikes a deal with Salesforce to sell more of its tech to other retailers",
+        "publish_timestamp": "2023-01-12 13:00:01",
+        "tickers": [
+            "WMT",
+            "AMZN",
+            "CRM",
+            "HD"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "home depot inc",
+            "walmart inc",
+            "amazon.com inc",
+            "business",
+            "business news",
+            "salesforce inc",
+            "retail industry",
+            "breaking news: business"
         ]
     },
     {
