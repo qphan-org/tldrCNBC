@@ -68,12 +68,15 @@ def find_all_mongo(query: dict = {}, limit: int=32, skip: int = 0):
     return results
 
 def find_one_mongo(query: dict = {}):
+    # inject additional query to the input query
+    final_query = get_final_query(query)
+    
     url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/findOne"
     payload = bson_dumps({
         "collection": "news",
         "database": "ruby",
         "dataSource": "ruby-1",
-        "filter": query,
+        "filter": final_query,
         "projection": {
             'news_url': 1,
             'sentiment': 1,
