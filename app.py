@@ -14,7 +14,7 @@ cache = dict()
 def index(idx: int=1):
     if cache.get('last_request') != f'/{idx}':
         if not validate_idx(idx):
-            return redirect(url_for('search_keyword', idx=cache['active_idx']))
+            return redirect(url_for('index', idx=cache['active_idx']))
         cache.clear()
         cache['articles'] = find_all_local(skip=idx-1)
         cache['count']    = count_local()
