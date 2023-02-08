@@ -107,3 +107,5 @@ def validate_idx(idx: int):
     
     if (count := cache.get('count')) != None:
         return idx <= math.ceil(count/32)
+
+    return False
