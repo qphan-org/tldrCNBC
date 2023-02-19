@@ -1,5 +1,219 @@
 [
     {
+        "_id": "63f2b3e823902580ff8707f5",
+        "title": "'Digital nomads' can now live in Spain with their families \u2014 if they earn enough",
+        "publish_timestamp": "2023-02-19 18:00:01",
+        "tickers": [
+            "SEMR"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "barcelona",
+            "hospitality and leisure industry",
+            "spain",
+            "adventure travel",
+            "liechtenstein",
+            "entertainment",
+            "family travel",
+            "wealth",
+            "economy",
+            "iceland",
+            "life",
+            "holidays",
+            "lifestyle",
+            "semrush holdings inc",
+            "vacations",
+            "business news",
+            "travel",
+            "business travel",
+            "tourism"
+        ]
+    },
+    {
+        "_id": "63f2b3f09286b544508707f6",
+        "title": "Meta is rolling out a new paid verification subscription service for Instagram and Facebook users",
+        "publish_timestamp": "2023-02-19 14:05:17",
+        "tickers": [
+            "META",
+            "TSLA"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "technology",
+            "business",
+            "internet",
+            "meta platforms inc",
+            "business news",
+            "social media"
+        ]
+    },
+    {
+        "_id": "63f2b3f0fa0f4564e98707f6",
+        "title": "Marvel's 'Ant-Man and the Wasp: Quantumania' scores $104 million during domestic debut",
+        "publish_timestamp": "2023-02-19 13:05:11",
+        "tickers": [
+            "SONY",
+            "6758.T-JP",
+            "DIS"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "movies",
+            "business",
+            "media",
+            "sony group corp",
+            "breaking news: business",
+            "life",
+            "business news",
+            "walt disney co",
+            "entertainment",
+            "marvel comics"
+        ]
+    },
+    {
+        "_id": "63f2b3e8a638d20ac78707f5",
+        "title": "Fox News execs blocked Trump from doing Jan. 6 interview amid Capitol riot, filing shows",
+        "publish_timestamp": "2023-02-19 12:12:03",
+        "tickers": [
+            "FOXA"
+        ],
+        "sentiment": {
+            "Sentiment": "NEGATIVE"
+        },
+        "keywords": [
+            "lawsuits",
+            "laws",
+            "media",
+            "donald trump",
+            "business news",
+            "elections",
+            "fox corp. class a",
+            "politics",
+            "rupert murdoch",
+            "joe biden"
+        ]
+    },
+    {
+        "_id": "63f2b3eaf1ab8a81a78707f5",
+        "title": "Retailers could face cost cuts and slower sales this year",
+        "publish_timestamp": "2023-02-19 10:03:17",
+        "tickers": [
+            "BBBY",
+            "GPS",
+            "NKE",
+            "HD",
+            "SFIX",
+            "W",
+            "TGT",
+            "M",
+            "WMT",
+            "AMZN",
+            "JWN",
+            "LULU"
+        ],
+        "sentiment": {
+            "Sentiment": "MIXED"
+        },
+        "keywords": [
+            "nike inc",
+            "lululemon athletica inc",
+            "business",
+            "home depot inc",
+            "breaking news: business",
+            "macy's inc",
+            "retail industry",
+            "business news",
+            "nordstrom inc",
+            "target corp",
+            "wayfair inc",
+            "walmart inc",
+            "gap inc",
+            "bed bath & beyond inc",
+            "stitch fix inc",
+            "amazon.com inc"
+        ]
+    },
+    {
+        "_id": "63f2b3e66ea7c1d1758707f5",
+        "title": "How an autonomous train-bus hybrid could transform city transit",
+        "publish_timestamp": "2023-02-19 09:00:01",
+        "tickers": [
+            "1766-SZ",
+            "3898-HK"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "technology",
+            "crrc corp ltd",
+            "mass transit systems",
+            "video first",
+            "australia",
+            "internet",
+            "business news",
+            "zhuzhou crrc times electric co ltd",
+            "u.s. department of transportation"
+        ]
+    },
+    {
+        "_id": "63f2b3f0fa0f4564e98707f5",
+        "title": "15 million renters pay more for housing than they can afford. Here's how to figure out if you're one of them",
+        "publish_timestamp": "2023-02-19 09:00:01",
+        "tickers": [
+            "DOUG"
+        ],
+        "sentiment": {
+            "Sentiment": "NEUTRAL"
+        },
+        "keywords": [
+            "economic events",
+            "new york",
+            "douglas elliman inc",
+            "business news",
+            "ramit sethi",
+            "new york city",
+            "politics",
+            "real estate",
+            "housing",
+            "personal finance",
+            "united states"
+        ]
+    },
+    {
+        "_id": "63f2b3f09286b544508707f5",
+        "title": "Top Wall Street analysts are bullish on these 5 stocks",
+        "publish_timestamp": "2023-02-19 08:25:28",
+        "tickers": [
+            "META",
+            "QUOTES",
+            "MU",
+            "CYBR",
+            "WYNN"
+        ],
+        "sentiment": {
+            "Sentiment": "POSITIVE"
+        },
+        "keywords": [
+            "cyberark software ltd",
+            "micron technology inc",
+            "markets",
+            "breaking news: markets",
+            "business news",
+            "wynn resorts ltd",
+            "meta platforms inc",
+            "weekend brief",
+            "investment strategy",
+            "chipotle mexican grill inc"
+        ]
+    },
+    {
         "_id": "63f16333c9550df0e85a27b9",
         "title": "Time for a change? Shifting away from this popular ETF strategy may benefit investors",
         "publish_timestamp": "2023-02-18 12:19:32",

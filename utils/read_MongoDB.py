@@ -6,6 +6,7 @@ from bson.json_util import dumps as bson_dumps
 with open("config.json", "r") as config_file:
     config = json.load(config_file)
     db_api_key      = config['db_api_key']
+    dp_api_id       = config['db_api_id']
     TESTING_MODE    = config['TESTING_MODE']
 
 # test data
@@ -45,7 +46,7 @@ def find_all_mongo(query: dict = {}, limit: int=32, skip: int = 0):
     # inject additional query to the input query
     final_query = get_final_query(query)
     
-    url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
+    url = f"https://data.mongodb-api.com/app/{dp_api_id}/endpoint/data/beta/action/find"
     
     results = list()
     
@@ -86,7 +87,7 @@ def find_one_mongo(query: dict = {}):
     # inject additional query to the input query
     final_query = get_final_query(query)
     
-    url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/findOne"
+    url = f"https://data.mongodb-api.com/app/{dp_api_id}/endpoint/data/beta/action/findOne"
     payload = bson_dumps({
         "collection": "news",
         "database": "ruby",
@@ -112,7 +113,7 @@ def count_mongo(query: dict = {}):
     # inject additional query to the input query
     final_query = get_final_query(query)
     
-    url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
+    url = f"https://data.mongodb-api.com/app/{dp_api_id}/endpoint/data/beta/action/find"
     payload = json.dumps({
         "collection": "news",
         "database": "ruby",
@@ -132,7 +133,7 @@ def if_exists_mongo(query: dict = {}, skip: int = 0, limit: int = 32):
     # inject additional query to the input query
     final_query = get_final_query(query)
     
-    url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
+    url = f"https://data.mongodb-api.com/app/{dp_api_id}/endpoint/data/beta/action/find"
     payload = bson_dumps({
         "collection": "news",
         "database": "ruby",
