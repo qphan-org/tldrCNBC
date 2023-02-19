@@ -1,7 +1,7 @@
 """
     The purpose of these functions is to reduce the api calls on the MongoDB Cloud to reduce cost
     
-    Assumption: there is a local JSON files containe all necessary information
+    Assumption: there is a local JSON file containe all necessary information
 """
 
 from __future__ import annotations
@@ -16,7 +16,9 @@ def filter_documents(docs: list[dict], query: dict):
         doc for doc in docs 
         if all([
             # exact match kv
-            (k,v) in doc.items() or (
+            (k,v) in doc.items()
+            # partial match
+            or (
                 isinstance(doc_values := doc.get(k), list) and (
                     # search ticker
                     v in doc_values

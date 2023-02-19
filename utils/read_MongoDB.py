@@ -5,8 +5,8 @@ from bson.json_util import dumps as bson_dumps
 
 with open("config.json", "r") as config_file:
     config = json.load(config_file)
-    db_api_key = config['db_api_key']
-    TESTING_MODE = config['TESTING_MODE']
+    db_api_key      = config['db_api_key']
+    TESTING_MODE    = config['TESTING_MODE']
 
 # test data
 with open("test_data.json","r") as test_data_file:
@@ -14,10 +14,10 @@ with open("test_data.json","r") as test_data_file:
 
 
 headers = {
-    'Content-Type': 'application/json',
+    'Content-Type'                  : 'application/json',
     'Access-Control-Request-Headers': '*',
-    'api-key': db_api_key,
-    'Accept': 'application/json'
+    'api-key'                       : db_api_key,
+    'Accept'                        : 'application/json'
 }
 
 def get_final_query(query: str, start_date: str = '2023-01-01'):
@@ -46,26 +46,41 @@ def find_all_mongo(query: dict = {}, limit: int=32, skip: int = 0):
     final_query = get_final_query(query)
     
     url = "https://data.mongodb-api.com/app/data-ytlfz/endpoint/data/beta/action/find"
-    payload = json.dumps({
-        "collection": "news",
-        "database": "ruby",
-        "dataSource": "ruby-1",
-        "filter": final_query,
-        "projection": {
-            'sentiment.Sentiment': 1,
-            'publish_timestamp': 1,
-            'tickers' : 1,
-            'title': 1,
-            'keywords': 1,
-        },
-        "sort": {"publish_timestamp": -1},
-        "limit": limit,
-        "skip": (limit if limit else 0) * skip,
-    })
-
-    response = requests.request("POST", url, headers=headers, data=payload)
-    results = json.loads(response.content)['documents']
-    return results
+    
+    results = list()
+    
+    # TODO: need to fix this to make it's more matainable
+    skip = (limit if limit else 0) * skip
+    
+    while True:
+        payload = json.dumps({
+            "collection": "news",
+            "database": "ruby",
+            "dataSource": "ruby-1",
+            "filter": final_query,
+            "projection": {
+                'sentiment.Sentiment': 1,
+                'publish_timestamp': 1,
+                'tickers' : 1,
+                'title': 1,
+                'keywords': 1,
+            },
+            "sort": {"publish_timestamp": -1},
+            "limit": limit,
+            "skip": skip,
+        })
+        
+        response = requests.request("POST", url, headers=headers, data=payload)
+        documents = json.loads(response.content)['documents']
+        if not documents:
+            break
+        results += documents
+        if limit and len(results) >= limit:
+            break
+        skip += 1000
+        
+    print(len(results))
+    return results[:limit]
 
 def find_one_mongo(query: dict = {}):
     # inject additional query to the input query
@@ -85,7 +100,6 @@ def find_one_mongo(query: dict = {}):
             'title': 1,
             'tags': 1,
             'keywords': 1,
-            
         },
     })
 
@@ -138,4 +152,3 @@ def if_exists_mongo(query: dict = {}, skip: int = 0, limit: int = 32):
 
 if __name__ == '__main__':
     get_db_mongo()
-    pass
